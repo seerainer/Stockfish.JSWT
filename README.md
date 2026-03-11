@@ -23,7 +23,7 @@ A Java 25 desktop chess application powered by the [Stockfish](https://stockfish
 |---|---|
 | [Eclipse SWT](https://www.eclipse.org/swt/) | Native desktop UI widgets |
 | [bhlangonijr/chesslib](https://github.com/bhlangonijr/chesslib) | Legal move generation, FEN parsing, board state |
-| [nmrugg/stockfish.js](https://github.com/nmrugg/stockfish.js) | Stockfish chess engine compiled to WebAssembly — the WASM binary bundled in `src/main/resources/stockfish/` is built from this project (currently Stockfish 17 / single-threaded) |
+| [nmrugg/stockfish.js](https://github.com/nmrugg/stockfish.js) | Stockfish chess engine compiled to WebAssembly — the WASM binary bundled in `src/main/resources/stockfish/` is built from this project (currently Stockfish 18 / single-threaded) |
 | [GraalVM Polyglot](https://www.graalvm.org/latest/reference-manual/polyglot-programming/) | Runs the Stockfish JS/WASM bundle inside a Java process via a GraalJS `Context` |
 
 > 🔖 **stockfish.js** is a WASM port of the [official Stockfish engine](https://github.com/official-stockfish/Stockfish) by Nathan Rugg, sponsored by Chess.com. It is the same engine that powers in-browser analysis on chess.com and lichess. Licensed under **GPLv3**.
