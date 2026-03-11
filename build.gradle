@@ -146,6 +146,7 @@ graalvmNative {
             buildArgs.add('-march=compatibility')
             buildArgs.add('-Os')
             buildArgs.add('--add-modules=org.graalvm.polyglot')
+            buildArgs.add('--initialize-at-build-time=org.eclipse.swt.internal.AutoScaleCalculation$AutoScaleQuarter')
             buildArgs.add('--initialize-at-build-time=org.eclipse.swt.internal.DPIUtil')
             buildArgs.add('--initialize-at-build-time=org.eclipse.swt.internal.DPIUtil$AutoScaleMethod')
             buildArgs.add('--initialize-at-build-time=org.eclipse.swt.internal.DPIUtil$UseSmoothScalingProvider')
