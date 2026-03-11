@@ -1,17 +1,4 @@
-<!-- Project logo (inline HTML/CSS) -->
-<div style="display:flex;align-items:center;justify-content:center;padding:18px 0">
-    <div style="font-weight:800;font-size:48px;line-height:1;display:inline-flex;align-items:center;gap:.28rem;font-family:Inter,system-ui,Segoe UI,Roboto,Arial">
-        <span style="color:#28a745;text-shadow: 1px 1px 1px #111">Stockfish</span>
-        <span style="color:#900;font-weight:900">.</span>
-        <span style="color:#f1e05a;font-weight:900">J</span>
-        <span style="display:inline-block;margin:0 -.3rem;background:linear-gradient(90deg,#f1e05a,#28a745,#3498db);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sf-slide 3s linear infinite">S</span>
-        <span style="color:#3498db;font-weight:900">WT</span>
-    </div>
-</div>
-
-<style>
-@keyframes sf-slide{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
-</style>
+# ♟️ Stockfish.JSWT
 
 A Java 25 desktop chess application powered by the [Stockfish](https://stockfishchess.org/) engine. The UI is built with [Eclipse SWT](https://www.eclipse.org/swt/) and the engine runs as a WebAssembly binary inside a [GraalVM](https://www.graalvm.org/) Polyglot JavaScript context — no native process, no external installation required.
 
