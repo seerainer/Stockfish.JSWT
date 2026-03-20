@@ -5,6 +5,8 @@ import org.eclipse.swt.widgets.Display;
 import io.github.seerainer.chess.config.ChessConfig;
 
 public class Main {
+    private static OutputConsole console;
+
     public static void main(final String[] args) {
 	// Add shutdown hook for proper cleanup
 	Runtime.getRuntime().addShutdownHook(new Thread(() -> {
@@ -18,7 +20,8 @@ public class Main {
 
 	try {
 	    display = new Display();
-	    gameUI = new ChessGameUI(display);
+	    console = new OutputConsole(display);
+	    gameUI = new ChessGameUI(display, console);
 	    final var shell = gameUI.open();
 
 	    // Main event loop with proper exception handling
@@ -43,6 +46,13 @@ public class Main {
 		    gameUI.dispose();
 		} catch (final Exception e) {
 		    System.err.println("Error disposing game UI: " + e.getMessage());
+		}
+	    }
+	    if (console != null) {
+		try {
+		    console.close();
+		} catch (final Exception e) {
+		    System.err.println("Error disposing output console: " + e.getMessage());
 		}
 	    }
 	    if (display != null && !display.isDisposed()) {

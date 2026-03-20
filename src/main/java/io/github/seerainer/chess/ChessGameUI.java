@@ -41,6 +41,7 @@ public class ChessGameUI {
     private final Display display;
     private Shell shell;
     private final ChessAI ai;
+    private final OutputConsole outputConsole;
     private ChessBoard chessBoard;
     private Board board;
     private Label statusLabel;
@@ -64,8 +65,9 @@ public class ChessGameUI {
     // Runtime-mutable preference: AI move delay
     private volatile int aiMoveDelayMs = AppPreferences.loadAiMoveDelayMs();
 
-    ChessGameUI(final Display display) {
+    ChessGameUI(final Display display, final OutputConsole outputConsole) {
 	this.display = display;
+	this.outputConsole = outputConsole;
 	this.board = new Board();
 	this.ai = new ChessAI();
 	createShell();
@@ -210,6 +212,13 @@ public class ChessGameUI {
 	settingsItem.setText("&Settings...\tCtrl+,");
 	settingsItem.setAccelerator(SWT.CTRL + ',');
 	settingsItem.addSelectionListener(widgetSelectedAdapter(_ -> openSettings()));
+
+	new MenuItem(engineMenu, SWT.SEPARATOR);
+
+	final var consoleItem = new MenuItem(engineMenu, SWT.PUSH);
+	consoleItem.setText("Show &Output Console\tCtrl+L");
+	consoleItem.setAccelerator(SWT.CTRL + 'L');
+	consoleItem.addSelectionListener(widgetSelectedAdapter(_ -> outputConsole.reopen()));
     }
 
     private void createShell() {
@@ -217,12 +226,12 @@ public class ChessGameUI {
 	shell.setText(ChessConfig.UI.WINDOW_TITLE); // Now using configuration
 
 	// Set shell size based on board size configuration
-	final var windowWidth = ChessConfig.UI.BOARD_SIZE + 40; // Padding for window borders
-	final var windowHeight = ChessConfig.UI.BOARD_SIZE + 120; // Extra height for menu and status
+	final var windowWidth = ChessConfig.UI.BOARD_SIZE + 24; // Padding for window borders
+	final var windowHeight = ChessConfig.UI.BOARD_SIZE + 106; // Extra height for menu and status
 	shell.setSize(windowWidth, windowHeight);
 
 	// **NEW: Set minimum size to prevent board clipping**
-	shell.setMinimumSize(windowWidth, windowHeight);
+	shell.setMinimumSize(ChessConfig.UI.BOARD_SIZE, ChessConfig.UI.BOARD_SIZE);
 
 	// Center the window on screen
 	final var displayBounds = display.getPrimaryMonitor().getBounds();
@@ -784,7 +793,7 @@ public class ChessGameUI {
 	if (aiThinking) {
 	    if (computerVsComputer) {
 		statusLabel.setText(new StringBuilder().append("Computer (").append(currentSide)
-			.append(") is thinking (Stockfish)...").toString());
+			.append(") is thinking...").toString());
 	    } else {
 		statusLabel.setText("Stockfish is thinking...");
 	    }

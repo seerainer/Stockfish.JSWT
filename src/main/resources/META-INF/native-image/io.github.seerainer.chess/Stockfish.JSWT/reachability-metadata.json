@@ -1,0 +1,4136 @@
+{
+  "reflection": [
+    {
+      "type": "io.github.seerainer.chess.Main",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "main",
+          "parameterTypes": [
+            "java.lang.String[]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Boolean",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "getBoolean",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Class",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "getClassLoader",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.ClassLoader",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "classLoaderValueMap"
+        }
+      ],
+      "methods": [
+        {
+          "name": "loadClass",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.String[]"
+    },
+    {
+      "type": "java.lang.Throwable",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "addSuppressed",
+          "parameterTypes": [
+            "java.lang.Throwable"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jdk.internal.jrtfs.JrtFileSystemProvider"
+    },
+    {
+      "type": "jdk.internal.loader.ClassLoaders$AppClassLoader"
+    },
+    {
+      "type": "jdk.internal.misc.Unsafe"
+    },
+    {
+      "type": "org.eclipse.swt.accessibility.Accessible$1"
+    },
+    {
+      "type": "org.eclipse.swt.accessibility.Accessible$10"
+    },
+    {
+      "type": "org.eclipse.swt.dnd.Clipboard$1"
+    },
+    {
+      "type": "org.eclipse.swt.internal.BidiUtil",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "windowProc",
+          "parameterTypes": [
+            "long",
+            "long",
+            "long",
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.gdip.GdiplusStartupInput",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "DebugEventCallback"
+        },
+        {
+          "name": "GdiplusVersion"
+        },
+        {
+          "name": "SuppressBackgroundThread"
+        },
+        {
+          "name": "SuppressExternalCodecs"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.ole.win32.COMObject",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "callback0",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback1",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback10",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback11",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback12",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback13",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback14",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback15",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback16",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback17",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback18",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback19",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback2",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback20",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback21",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback22",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback23",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback24",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback25",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback26",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback27",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback28",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback29",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback3",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback30",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback31",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback32",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback33",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback34",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback35",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback36",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback37",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback38",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback39",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback4",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback40",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback41",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback42",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback43",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback44",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback45",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback5",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback6",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback7",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback8",
+          "parameterTypes": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "callback9",
+          "parameterTypes": [
+            "long[]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.ole.win32.GUID",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "Data1"
+        },
+        {
+          "name": "Data2"
+        },
+        {
+          "name": "Data3"
+        },
+        {
+          "name": "Data4"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.ole.win32.VARIANT",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "lVal"
+        },
+        {
+          "name": "vt"
+        },
+        {
+          "name": "wReserved1"
+        },
+        {
+          "name": "wReserved2"
+        },
+        {
+          "name": "wReserved3"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.ACCEL",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cmd"
+        },
+        {
+          "name": "fVirt"
+        },
+        {
+          "name": "key"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.ACTCTX",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cbSize"
+        },
+        {
+          "name": "dwFlags"
+        },
+        {
+          "name": "hModule"
+        },
+        {
+          "name": "lpApplicationName"
+        },
+        {
+          "name": "lpAssemblyDirectory"
+        },
+        {
+          "name": "lpResourceName"
+        },
+        {
+          "name": "lpSource"
+        },
+        {
+          "name": "wLangId"
+        },
+        {
+          "name": "wProcessorArchitecture"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.BITMAP",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bmBits"
+        },
+        {
+          "name": "bmBitsPixel"
+        },
+        {
+          "name": "bmHeight"
+        },
+        {
+          "name": "bmPlanes"
+        },
+        {
+          "name": "bmType"
+        },
+        {
+          "name": "bmWidth"
+        },
+        {
+          "name": "bmWidthBytes"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.CANDIDATEFORM",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "dwIndex"
+        },
+        {
+          "name": "dwStyle"
+        },
+        {
+          "name": "ptCurrentPos"
+        },
+        {
+          "name": "rcArea"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.COMBOBOXINFO",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "buttonBottom"
+        },
+        {
+          "name": "buttonLeft"
+        },
+        {
+          "name": "buttonRight"
+        },
+        {
+          "name": "buttonTop"
+        },
+        {
+          "name": "cbSize"
+        },
+        {
+          "name": "hwndCombo"
+        },
+        {
+          "name": "hwndItem"
+        },
+        {
+          "name": "hwndList"
+        },
+        {
+          "name": "itemBottom"
+        },
+        {
+          "name": "itemLeft"
+        },
+        {
+          "name": "itemRight"
+        },
+        {
+          "name": "itemTop"
+        },
+        {
+          "name": "stateButton"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.INITCOMMONCONTROLSEX",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "dwICC"
+        },
+        {
+          "name": "dwSize"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.LOGFONT",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "lfCharSet"
+        },
+        {
+          "name": "lfClipPrecision"
+        },
+        {
+          "name": "lfEscapement"
+        },
+        {
+          "name": "lfFaceName"
+        },
+        {
+          "name": "lfHeight"
+        },
+        {
+          "name": "lfItalic"
+        },
+        {
+          "name": "lfOrientation"
+        },
+        {
+          "name": "lfOutPrecision"
+        },
+        {
+          "name": "lfPitchAndFamily"
+        },
+        {
+          "name": "lfQuality"
+        },
+        {
+          "name": "lfStrikeOut"
+        },
+        {
+          "name": "lfUnderline"
+        },
+        {
+          "name": "lfWeight"
+        },
+        {
+          "name": "lfWidth"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.MENUBARINFO",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bottom"
+        },
+        {
+          "name": "cbSize"
+        },
+        {
+          "name": "fBarFocused"
+        },
+        {
+          "name": "fFocused"
+        },
+        {
+          "name": "hMenu"
+        },
+        {
+          "name": "hwndMenu"
+        },
+        {
+          "name": "left"
+        },
+        {
+          "name": "right"
+        },
+        {
+          "name": "top"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.MENUINFO",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cbSize"
+        },
+        {
+          "name": "cyMax"
+        },
+        {
+          "name": "dwContextHelpID"
+        },
+        {
+          "name": "dwMenuData"
+        },
+        {
+          "name": "dwStyle"
+        },
+        {
+          "name": "fMask"
+        },
+        {
+          "name": "hbrBack"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.MENUITEMINFO",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cbSize"
+        },
+        {
+          "name": "cch"
+        },
+        {
+          "name": "dwItemData"
+        },
+        {
+          "name": "dwTypeData"
+        },
+        {
+          "name": "fMask"
+        },
+        {
+          "name": "fState"
+        },
+        {
+          "name": "fType"
+        },
+        {
+          "name": "hSubMenu"
+        },
+        {
+          "name": "hbmpChecked"
+        },
+        {
+          "name": "hbmpItem"
+        },
+        {
+          "name": "hbmpUnchecked"
+        },
+        {
+          "name": "wID"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.MINMAXINFO",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "ptMaxPosition_x"
+        },
+        {
+          "name": "ptMaxPosition_y"
+        },
+        {
+          "name": "ptMaxSize_x"
+        },
+        {
+          "name": "ptMaxSize_y"
+        },
+        {
+          "name": "ptMaxTrackSize_x"
+        },
+        {
+          "name": "ptMaxTrackSize_y"
+        },
+        {
+          "name": "ptMinTrackSize_x"
+        },
+        {
+          "name": "ptMinTrackSize_y"
+        },
+        {
+          "name": "ptReserved_x"
+        },
+        {
+          "name": "ptReserved_y"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.MONITORINFO",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cbSize"
+        },
+        {
+          "name": "dwFlags"
+        },
+        {
+          "name": "rcMonitor_bottom"
+        },
+        {
+          "name": "rcMonitor_left"
+        },
+        {
+          "name": "rcMonitor_right"
+        },
+        {
+          "name": "rcMonitor_top"
+        },
+        {
+          "name": "rcWork_bottom"
+        },
+        {
+          "name": "rcWork_left"
+        },
+        {
+          "name": "rcWork_right"
+        },
+        {
+          "name": "rcWork_top"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.MSG",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "hwnd"
+        },
+        {
+          "name": "lParam"
+        },
+        {
+          "name": "message"
+        },
+        {
+          "name": "time"
+        },
+        {
+          "name": "wParam"
+        },
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.NMCUSTOMDRAW",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bottom"
+        },
+        {
+          "name": "dwDrawStage"
+        },
+        {
+          "name": "dwItemSpec"
+        },
+        {
+          "name": "hdc"
+        },
+        {
+          "name": "lItemlParam"
+        },
+        {
+          "name": "left"
+        },
+        {
+          "name": "right"
+        },
+        {
+          "name": "top"
+        },
+        {
+          "name": "uItemState"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.NMHDR",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "code"
+        },
+        {
+          "name": "hwndFrom"
+        },
+        {
+          "name": "idFrom"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.NMTTDISPINFO",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "hinst"
+        },
+        {
+          "name": "lParam"
+        },
+        {
+          "name": "lpszText"
+        },
+        {
+          "name": "szText"
+        },
+        {
+          "name": "uFlags"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.NONCLIENTMETRICS",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cbSize"
+        },
+        {
+          "name": "iBorderWidth"
+        },
+        {
+          "name": "iCaptionHeight"
+        },
+        {
+          "name": "iCaptionWidth"
+        },
+        {
+          "name": "iMenuHeight"
+        },
+        {
+          "name": "iMenuWidth"
+        },
+        {
+          "name": "iScrollHeight"
+        },
+        {
+          "name": "iScrollWidth"
+        },
+        {
+          "name": "iSmCaptionHeight"
+        },
+        {
+          "name": "iSmCaptionWidth"
+        },
+        {
+          "name": "lfCaptionFont"
+        },
+        {
+          "name": "lfMenuFont"
+        },
+        {
+          "name": "lfMessageFont"
+        },
+        {
+          "name": "lfSmCaptionFont"
+        },
+        {
+          "name": "lfStatusFont"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.PAINTSTRUCT",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bottom"
+        },
+        {
+          "name": "fErase"
+        },
+        {
+          "name": "fIncUpdate"
+        },
+        {
+          "name": "fRestore"
+        },
+        {
+          "name": "hdc"
+        },
+        {
+          "name": "left"
+        },
+        {
+          "name": "rgbReserved"
+        },
+        {
+          "name": "right"
+        },
+        {
+          "name": "top"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.POINT",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.RECT",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bottom"
+        },
+        {
+          "name": "left"
+        },
+        {
+          "name": "right"
+        },
+        {
+          "name": "top"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.SCRIPT_ANALYSIS",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "eScript"
+        },
+        {
+          "name": "fLayoutRTL"
+        },
+        {
+          "name": "fLinkAfter"
+        },
+        {
+          "name": "fLinkBefore"
+        },
+        {
+          "name": "fLogicalOrder"
+        },
+        {
+          "name": "fNoGlyphIndex"
+        },
+        {
+          "name": "fRTL"
+        },
+        {
+          "name": "s"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.SCRIPT_CONTROL",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "fContextDigits"
+        },
+        {
+          "name": "fInvertPostBoundDir"
+        },
+        {
+          "name": "fInvertPreBoundDir"
+        },
+        {
+          "name": "fLegacyBidiClass"
+        },
+        {
+          "name": "fLinkStringAfter"
+        },
+        {
+          "name": "fLinkStringBefore"
+        },
+        {
+          "name": "fMergeNeutralItems"
+        },
+        {
+          "name": "fNeutralOverride"
+        },
+        {
+          "name": "fNumericOverride"
+        },
+        {
+          "name": "fReserved"
+        },
+        {
+          "name": "fUseStandardBidi"
+        },
+        {
+          "name": "uDefaultLanguage"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.SCRIPT_ITEM",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "a"
+        },
+        {
+          "name": "iCharPos"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.SCRIPT_PROPERTIES",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bCharSet"
+        },
+        {
+          "name": "fAmbiguousCharSet"
+        },
+        {
+          "name": "fCDM"
+        },
+        {
+          "name": "fClusterSizeVaries"
+        },
+        {
+          "name": "fComplex"
+        },
+        {
+          "name": "fControl"
+        },
+        {
+          "name": "fInvalidGlyph"
+        },
+        {
+          "name": "fInvalidLogAttr"
+        },
+        {
+          "name": "fNeedsCaretInfo"
+        },
+        {
+          "name": "fNeedsCharacterJustify"
+        },
+        {
+          "name": "fNeedsWordBreaking"
+        },
+        {
+          "name": "fNumeric"
+        },
+        {
+          "name": "fPrivateUseArea"
+        },
+        {
+          "name": "fRejectInvalid"
+        },
+        {
+          "name": "langid"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.SCRIPT_STATE",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "fArabicNumContext"
+        },
+        {
+          "name": "fCharShape"
+        },
+        {
+          "name": "fDigitSubstitute"
+        },
+        {
+          "name": "fDisplayZWG"
+        },
+        {
+          "name": "fEngineReserved"
+        },
+        {
+          "name": "fGcpClusters"
+        },
+        {
+          "name": "fInhibitLigate"
+        },
+        {
+          "name": "fInhibitSymSwap"
+        },
+        {
+          "name": "fOverrideDirection"
+        },
+        {
+          "name": "fReserved"
+        },
+        {
+          "name": "uBidiLevel"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.SCROLLBARINFO",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cbSize"
+        },
+        {
+          "name": "dxyLineButton"
+        },
+        {
+          "name": "rcScrollBar"
+        },
+        {
+          "name": "reserved"
+        },
+        {
+          "name": "rgstate"
+        },
+        {
+          "name": "xyThumbBottom"
+        },
+        {
+          "name": "xyThumbTop"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.SCROLLINFO",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cbSize"
+        },
+        {
+          "name": "fMask"
+        },
+        {
+          "name": "nMax"
+        },
+        {
+          "name": "nMin"
+        },
+        {
+          "name": "nPage"
+        },
+        {
+          "name": "nPos"
+        },
+        {
+          "name": "nTrackPos"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.SIZE",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cx"
+        },
+        {
+          "name": "cy"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.STARTUPINFO",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cb"
+        },
+        {
+          "name": "cbReserved2"
+        },
+        {
+          "name": "dwFillAttribute"
+        },
+        {
+          "name": "dwFlags"
+        },
+        {
+          "name": "dwX"
+        },
+        {
+          "name": "dwXCountChars"
+        },
+        {
+          "name": "dwXSize"
+        },
+        {
+          "name": "dwY"
+        },
+        {
+          "name": "dwYCountChars"
+        },
+        {
+          "name": "dwYSize"
+        },
+        {
+          "name": "hStdError"
+        },
+        {
+          "name": "hStdInput"
+        },
+        {
+          "name": "hStdOutput"
+        },
+        {
+          "name": "lpDesktop"
+        },
+        {
+          "name": "lpReserved"
+        },
+        {
+          "name": "lpReserved2"
+        },
+        {
+          "name": "lpTitle"
+        },
+        {
+          "name": "wShowWindow"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.TEXTMETRIC",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "tmAscent"
+        },
+        {
+          "name": "tmAveCharWidth"
+        },
+        {
+          "name": "tmBreakChar"
+        },
+        {
+          "name": "tmCharSet"
+        },
+        {
+          "name": "tmDefaultChar"
+        },
+        {
+          "name": "tmDescent"
+        },
+        {
+          "name": "tmDigitizedAspectX"
+        },
+        {
+          "name": "tmDigitizedAspectY"
+        },
+        {
+          "name": "tmExternalLeading"
+        },
+        {
+          "name": "tmFirstChar"
+        },
+        {
+          "name": "tmHeight"
+        },
+        {
+          "name": "tmInternalLeading"
+        },
+        {
+          "name": "tmItalic"
+        },
+        {
+          "name": "tmLastChar"
+        },
+        {
+          "name": "tmMaxCharWidth"
+        },
+        {
+          "name": "tmOverhang"
+        },
+        {
+          "name": "tmPitchAndFamily"
+        },
+        {
+          "name": "tmStruckOut"
+        },
+        {
+          "name": "tmUnderlined"
+        },
+        {
+          "name": "tmWeight"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.TOOLINFO",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bottom"
+        },
+        {
+          "name": "cbSize"
+        },
+        {
+          "name": "hinst"
+        },
+        {
+          "name": "hwnd"
+        },
+        {
+          "name": "lParam"
+        },
+        {
+          "name": "left"
+        },
+        {
+          "name": "lpReserved"
+        },
+        {
+          "name": "lpszText"
+        },
+        {
+          "name": "right"
+        },
+        {
+          "name": "top"
+        },
+        {
+          "name": "uFlags"
+        },
+        {
+          "name": "uId"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.UDACCEL",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "nInc"
+        },
+        {
+          "name": "nSec"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.WINDOWPLACEMENT",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bottom"
+        },
+        {
+          "name": "flags"
+        },
+        {
+          "name": "left"
+        },
+        {
+          "name": "length"
+        },
+        {
+          "name": "ptMaxPosition_x"
+        },
+        {
+          "name": "ptMaxPosition_y"
+        },
+        {
+          "name": "ptMinPosition_x"
+        },
+        {
+          "name": "ptMinPosition_y"
+        },
+        {
+          "name": "right"
+        },
+        {
+          "name": "showCmd"
+        },
+        {
+          "name": "top"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.WINDOWPOS",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cx"
+        },
+        {
+          "name": "cy"
+        },
+        {
+          "name": "flags"
+        },
+        {
+          "name": "hwnd"
+        },
+        {
+          "name": "hwndInsertAfter"
+        },
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.WNDCLASS",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cbClsExtra"
+        },
+        {
+          "name": "cbWndExtra"
+        },
+        {
+          "name": "hCursor"
+        },
+        {
+          "name": "hIcon"
+        },
+        {
+          "name": "hInstance"
+        },
+        {
+          "name": "hbrBackground"
+        },
+        {
+          "name": "lpfnWndProc"
+        },
+        {
+          "name": "lpszClassName"
+        },
+        {
+          "name": "lpszMenuName"
+        },
+        {
+          "name": "style"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.version.OSVERSIONINFOEX",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "dwBuildNumber"
+        },
+        {
+          "name": "dwMajorVersion"
+        },
+        {
+          "name": "dwMinorVersion"
+        },
+        {
+          "name": "dwOSVersionInfoSize"
+        },
+        {
+          "name": "dwPlatformId"
+        },
+        {
+          "name": "szCSDVersion"
+        },
+        {
+          "name": "wProductType"
+        },
+        {
+          "name": "wReserved"
+        },
+        {
+          "name": "wServicePackMajor"
+        },
+        {
+          "name": "wServicePackMinor"
+        },
+        {
+          "name": "wSuiteMask"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.widgets.Display",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "foregroundIdleProc",
+          "parameterTypes": [
+            "long",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "messageProc",
+          "parameterTypes": [
+            "long",
+            "long",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "monitorEnumProc",
+          "parameterTypes": [
+            "long",
+            "long",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "msgFilterProc",
+          "parameterTypes": [
+            "long",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "windowProc",
+          "parameterTypes": [
+            "long",
+            "long",
+            "long",
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.graalvm.home.impl.DefaultHomeFinder"
+    },
+    {
+      "type": "org.graalvm.polyglot.io.IOHelper",
+      "fields": [
+        {
+          "name": "ACCESS"
+        }
+      ]
+    },
+    {
+      "type": "org.graalvm.polyglot.management.Management",
+      "fields": [
+        {
+          "name": "ACCESS"
+        }
+      ]
+    },
+    {
+      "type": "org.graalvm.wasm.RuntimeState",
+      "fields": [
+        {
+          "name": "linkState"
+        }
+      ]
+    },
+    {
+      "type": "org.graalvm.wasm.WasmLanguageProvider"
+    },
+    {
+      "type": "org.graalvm.wasm.WasmModule",
+      "fields": [
+        {
+          "name": "linkActions"
+        }
+      ]
+    },
+    {
+      "type": "org.graalvm.wasm.constants.Bytecode",
+      "fields": [
+        {
+          "name": "VECTOR_F32X4_ABS"
+        },
+        {
+          "name": "VECTOR_F32X4_ADD"
+        },
+        {
+          "name": "VECTOR_F32X4_CEIL"
+        },
+        {
+          "name": "VECTOR_F32X4_CONVERT_I32X4_S"
+        },
+        {
+          "name": "VECTOR_F32X4_CONVERT_I32X4_U"
+        },
+        {
+          "name": "VECTOR_F32X4_DEMOTE_F64X2_ZERO"
+        },
+        {
+          "name": "VECTOR_F32X4_DIV"
+        },
+        {
+          "name": "VECTOR_F32X4_EQ"
+        },
+        {
+          "name": "VECTOR_F32X4_EXTRACT_LANE"
+        },
+        {
+          "name": "VECTOR_F32X4_FLOOR"
+        },
+        {
+          "name": "VECTOR_F32X4_GE"
+        },
+        {
+          "name": "VECTOR_F32X4_GT"
+        },
+        {
+          "name": "VECTOR_F32X4_LE"
+        },
+        {
+          "name": "VECTOR_F32X4_LT"
+        },
+        {
+          "name": "VECTOR_F32X4_MAX"
+        },
+        {
+          "name": "VECTOR_F32X4_MIN"
+        },
+        {
+          "name": "VECTOR_F32X4_MUL"
+        },
+        {
+          "name": "VECTOR_F32X4_NE"
+        },
+        {
+          "name": "VECTOR_F32X4_NEAREST"
+        },
+        {
+          "name": "VECTOR_F32X4_NEG"
+        },
+        {
+          "name": "VECTOR_F32X4_PMAX"
+        },
+        {
+          "name": "VECTOR_F32X4_PMIN"
+        },
+        {
+          "name": "VECTOR_F32X4_RELAXED_MADD"
+        },
+        {
+          "name": "VECTOR_F32X4_RELAXED_MAX"
+        },
+        {
+          "name": "VECTOR_F32X4_RELAXED_MIN"
+        },
+        {
+          "name": "VECTOR_F32X4_RELAXED_NMADD"
+        },
+        {
+          "name": "VECTOR_F32X4_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_F32X4_SPLAT"
+        },
+        {
+          "name": "VECTOR_F32X4_SQRT"
+        },
+        {
+          "name": "VECTOR_F32X4_SUB"
+        },
+        {
+          "name": "VECTOR_F32X4_TRUNC"
+        },
+        {
+          "name": "VECTOR_F64X2_ABS"
+        },
+        {
+          "name": "VECTOR_F64X2_ADD"
+        },
+        {
+          "name": "VECTOR_F64X2_CEIL"
+        },
+        {
+          "name": "VECTOR_F64X2_CONVERT_LOW_I32X4_S"
+        },
+        {
+          "name": "VECTOR_F64X2_CONVERT_LOW_I32X4_U"
+        },
+        {
+          "name": "VECTOR_F64X2_DIV"
+        },
+        {
+          "name": "VECTOR_F64X2_EQ"
+        },
+        {
+          "name": "VECTOR_F64X2_EXTRACT_LANE"
+        },
+        {
+          "name": "VECTOR_F64X2_FLOOR"
+        },
+        {
+          "name": "VECTOR_F64X2_GE"
+        },
+        {
+          "name": "VECTOR_F64X2_GT"
+        },
+        {
+          "name": "VECTOR_F64X2_LE"
+        },
+        {
+          "name": "VECTOR_F64X2_LT"
+        },
+        {
+          "name": "VECTOR_F64X2_MAX"
+        },
+        {
+          "name": "VECTOR_F64X2_MIN"
+        },
+        {
+          "name": "VECTOR_F64X2_MUL"
+        },
+        {
+          "name": "VECTOR_F64X2_NE"
+        },
+        {
+          "name": "VECTOR_F64X2_NEAREST"
+        },
+        {
+          "name": "VECTOR_F64X2_NEG"
+        },
+        {
+          "name": "VECTOR_F64X2_PMAX"
+        },
+        {
+          "name": "VECTOR_F64X2_PMIN"
+        },
+        {
+          "name": "VECTOR_F64X2_PROMOTE_LOW_F32X4"
+        },
+        {
+          "name": "VECTOR_F64X2_RELAXED_MADD"
+        },
+        {
+          "name": "VECTOR_F64X2_RELAXED_MAX"
+        },
+        {
+          "name": "VECTOR_F64X2_RELAXED_MIN"
+        },
+        {
+          "name": "VECTOR_F64X2_RELAXED_NMADD"
+        },
+        {
+          "name": "VECTOR_F64X2_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_F64X2_SPLAT"
+        },
+        {
+          "name": "VECTOR_F64X2_SQRT"
+        },
+        {
+          "name": "VECTOR_F64X2_SUB"
+        },
+        {
+          "name": "VECTOR_F64X2_TRUNC"
+        },
+        {
+          "name": "VECTOR_I16X8_ABS"
+        },
+        {
+          "name": "VECTOR_I16X8_ADD"
+        },
+        {
+          "name": "VECTOR_I16X8_ADD_SAT_S"
+        },
+        {
+          "name": "VECTOR_I16X8_ADD_SAT_U"
+        },
+        {
+          "name": "VECTOR_I16X8_ALL_TRUE"
+        },
+        {
+          "name": "VECTOR_I16X8_AVGR_U"
+        },
+        {
+          "name": "VECTOR_I16X8_BITMASK"
+        },
+        {
+          "name": "VECTOR_I16X8_EQ"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTADD_PAIRWISE_I8X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTADD_PAIRWISE_I8X16_U"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTEND_HIGH_I8X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTEND_HIGH_I8X16_U"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTEND_LOW_I8X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTEND_LOW_I8X16_U"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTMUL_HIGH_I8X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTMUL_HIGH_I8X16_U"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTMUL_LOW_I8X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTMUL_LOW_I8X16_U"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTRACT_LANE_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTRACT_LANE_U"
+        },
+        {
+          "name": "VECTOR_I16X8_GE_S"
+        },
+        {
+          "name": "VECTOR_I16X8_GE_U"
+        },
+        {
+          "name": "VECTOR_I16X8_GT_S"
+        },
+        {
+          "name": "VECTOR_I16X8_GT_U"
+        },
+        {
+          "name": "VECTOR_I16X8_LE_S"
+        },
+        {
+          "name": "VECTOR_I16X8_LE_U"
+        },
+        {
+          "name": "VECTOR_I16X8_LT_S"
+        },
+        {
+          "name": "VECTOR_I16X8_LT_U"
+        },
+        {
+          "name": "VECTOR_I16X8_MAX_S"
+        },
+        {
+          "name": "VECTOR_I16X8_MAX_U"
+        },
+        {
+          "name": "VECTOR_I16X8_MIN_S"
+        },
+        {
+          "name": "VECTOR_I16X8_MIN_U"
+        },
+        {
+          "name": "VECTOR_I16X8_MUL"
+        },
+        {
+          "name": "VECTOR_I16X8_NARROW_I32X4_S"
+        },
+        {
+          "name": "VECTOR_I16X8_NARROW_I32X4_U"
+        },
+        {
+          "name": "VECTOR_I16X8_NE"
+        },
+        {
+          "name": "VECTOR_I16X8_NEG"
+        },
+        {
+          "name": "VECTOR_I16X8_Q15MULR_SAT_S"
+        },
+        {
+          "name": "VECTOR_I16X8_RELAXED_DOT_I8X16_I7X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_RELAXED_LANESELECT"
+        },
+        {
+          "name": "VECTOR_I16X8_RELAXED_Q15MULR_S"
+        },
+        {
+          "name": "VECTOR_I16X8_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_I16X8_SHL"
+        },
+        {
+          "name": "VECTOR_I16X8_SHR_S"
+        },
+        {
+          "name": "VECTOR_I16X8_SHR_U"
+        },
+        {
+          "name": "VECTOR_I16X8_SPLAT"
+        },
+        {
+          "name": "VECTOR_I16X8_SUB"
+        },
+        {
+          "name": "VECTOR_I16X8_SUB_SAT_S"
+        },
+        {
+          "name": "VECTOR_I16X8_SUB_SAT_U"
+        },
+        {
+          "name": "VECTOR_I32X4_ABS"
+        },
+        {
+          "name": "VECTOR_I32X4_ADD"
+        },
+        {
+          "name": "VECTOR_I32X4_ALL_TRUE"
+        },
+        {
+          "name": "VECTOR_I32X4_BITMASK"
+        },
+        {
+          "name": "VECTOR_I32X4_DOT_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EQ"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTADD_PAIRWISE_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTADD_PAIRWISE_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTEND_HIGH_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTEND_HIGH_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTEND_LOW_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTEND_LOW_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTMUL_HIGH_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTMUL_HIGH_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTMUL_LOW_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTMUL_LOW_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTRACT_LANE"
+        },
+        {
+          "name": "VECTOR_I32X4_GE_S"
+        },
+        {
+          "name": "VECTOR_I32X4_GE_U"
+        },
+        {
+          "name": "VECTOR_I32X4_GT_S"
+        },
+        {
+          "name": "VECTOR_I32X4_GT_U"
+        },
+        {
+          "name": "VECTOR_I32X4_LE_S"
+        },
+        {
+          "name": "VECTOR_I32X4_LE_U"
+        },
+        {
+          "name": "VECTOR_I32X4_LT_S"
+        },
+        {
+          "name": "VECTOR_I32X4_LT_U"
+        },
+        {
+          "name": "VECTOR_I32X4_MAX_S"
+        },
+        {
+          "name": "VECTOR_I32X4_MAX_U"
+        },
+        {
+          "name": "VECTOR_I32X4_MIN_S"
+        },
+        {
+          "name": "VECTOR_I32X4_MIN_U"
+        },
+        {
+          "name": "VECTOR_I32X4_MUL"
+        },
+        {
+          "name": "VECTOR_I32X4_NE"
+        },
+        {
+          "name": "VECTOR_I32X4_NEG"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_DOT_I8X16_I7X16_ADD_S"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_LANESELECT"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_TRUNC_F32X4_S"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_TRUNC_F32X4_U"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_TRUNC_F64X2_S_ZERO"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_TRUNC_F64X2_U_ZERO"
+        },
+        {
+          "name": "VECTOR_I32X4_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_I32X4_SHL"
+        },
+        {
+          "name": "VECTOR_I32X4_SHR_S"
+        },
+        {
+          "name": "VECTOR_I32X4_SHR_U"
+        },
+        {
+          "name": "VECTOR_I32X4_SPLAT"
+        },
+        {
+          "name": "VECTOR_I32X4_SUB"
+        },
+        {
+          "name": "VECTOR_I32X4_TRUNC_SAT_F32X4_S"
+        },
+        {
+          "name": "VECTOR_I32X4_TRUNC_SAT_F32X4_U"
+        },
+        {
+          "name": "VECTOR_I32X4_TRUNC_SAT_F64X2_S_ZERO"
+        },
+        {
+          "name": "VECTOR_I32X4_TRUNC_SAT_F64X2_U_ZERO"
+        },
+        {
+          "name": "VECTOR_I64X2_ABS"
+        },
+        {
+          "name": "VECTOR_I64X2_ADD"
+        },
+        {
+          "name": "VECTOR_I64X2_ALL_TRUE"
+        },
+        {
+          "name": "VECTOR_I64X2_BITMASK"
+        },
+        {
+          "name": "VECTOR_I64X2_EQ"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTEND_HIGH_I32X4_S"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTEND_HIGH_I32X4_U"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTEND_LOW_I32X4_S"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTEND_LOW_I32X4_U"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTMUL_HIGH_I32X4_S"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTMUL_HIGH_I32X4_U"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTMUL_LOW_I32X4_S"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTMUL_LOW_I32X4_U"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTRACT_LANE"
+        },
+        {
+          "name": "VECTOR_I64X2_GE_S"
+        },
+        {
+          "name": "VECTOR_I64X2_GT_S"
+        },
+        {
+          "name": "VECTOR_I64X2_LE_S"
+        },
+        {
+          "name": "VECTOR_I64X2_LT_S"
+        },
+        {
+          "name": "VECTOR_I64X2_MUL"
+        },
+        {
+          "name": "VECTOR_I64X2_NE"
+        },
+        {
+          "name": "VECTOR_I64X2_NEG"
+        },
+        {
+          "name": "VECTOR_I64X2_RELAXED_LANESELECT"
+        },
+        {
+          "name": "VECTOR_I64X2_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_I64X2_SHL"
+        },
+        {
+          "name": "VECTOR_I64X2_SHR_S"
+        },
+        {
+          "name": "VECTOR_I64X2_SHR_U"
+        },
+        {
+          "name": "VECTOR_I64X2_SPLAT"
+        },
+        {
+          "name": "VECTOR_I64X2_SUB"
+        },
+        {
+          "name": "VECTOR_I8X16_ABS"
+        },
+        {
+          "name": "VECTOR_I8X16_ADD"
+        },
+        {
+          "name": "VECTOR_I8X16_ADD_SAT_S"
+        },
+        {
+          "name": "VECTOR_I8X16_ADD_SAT_U"
+        },
+        {
+          "name": "VECTOR_I8X16_ALL_TRUE"
+        },
+        {
+          "name": "VECTOR_I8X16_AVGR_U"
+        },
+        {
+          "name": "VECTOR_I8X16_BITMASK"
+        },
+        {
+          "name": "VECTOR_I8X16_EQ"
+        },
+        {
+          "name": "VECTOR_I8X16_EXTRACT_LANE_S"
+        },
+        {
+          "name": "VECTOR_I8X16_EXTRACT_LANE_U"
+        },
+        {
+          "name": "VECTOR_I8X16_GE_S"
+        },
+        {
+          "name": "VECTOR_I8X16_GE_U"
+        },
+        {
+          "name": "VECTOR_I8X16_GT_S"
+        },
+        {
+          "name": "VECTOR_I8X16_GT_U"
+        },
+        {
+          "name": "VECTOR_I8X16_LE_S"
+        },
+        {
+          "name": "VECTOR_I8X16_LE_U"
+        },
+        {
+          "name": "VECTOR_I8X16_LT_S"
+        },
+        {
+          "name": "VECTOR_I8X16_LT_U"
+        },
+        {
+          "name": "VECTOR_I8X16_MAX_S"
+        },
+        {
+          "name": "VECTOR_I8X16_MAX_U"
+        },
+        {
+          "name": "VECTOR_I8X16_MIN_S"
+        },
+        {
+          "name": "VECTOR_I8X16_MIN_U"
+        },
+        {
+          "name": "VECTOR_I8X16_NARROW_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I8X16_NARROW_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I8X16_NE"
+        },
+        {
+          "name": "VECTOR_I8X16_NEG"
+        },
+        {
+          "name": "VECTOR_I8X16_POPCNT"
+        },
+        {
+          "name": "VECTOR_I8X16_RELAXED_LANESELECT"
+        },
+        {
+          "name": "VECTOR_I8X16_RELAXED_SWIZZLE"
+        },
+        {
+          "name": "VECTOR_I8X16_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_I8X16_SHL"
+        },
+        {
+          "name": "VECTOR_I8X16_SHR_S"
+        },
+        {
+          "name": "VECTOR_I8X16_SHR_U"
+        },
+        {
+          "name": "VECTOR_I8X16_SHUFFLE"
+        },
+        {
+          "name": "VECTOR_I8X16_SPLAT"
+        },
+        {
+          "name": "VECTOR_I8X16_SUB"
+        },
+        {
+          "name": "VECTOR_I8X16_SUB_SAT_S"
+        },
+        {
+          "name": "VECTOR_I8X16_SUB_SAT_U"
+        },
+        {
+          "name": "VECTOR_I8X16_SWIZZLE"
+        },
+        {
+          "name": "VECTOR_V128_AND"
+        },
+        {
+          "name": "VECTOR_V128_ANDNOT"
+        },
+        {
+          "name": "VECTOR_V128_ANY_TRUE"
+        },
+        {
+          "name": "VECTOR_V128_BITSELECT"
+        },
+        {
+          "name": "VECTOR_V128_CONST"
+        },
+        {
+          "name": "VECTOR_V128_LOAD"
+        },
+        {
+          "name": "VECTOR_V128_LOAD16X4_S"
+        },
+        {
+          "name": "VECTOR_V128_LOAD16X4_U"
+        },
+        {
+          "name": "VECTOR_V128_LOAD16_LANE"
+        },
+        {
+          "name": "VECTOR_V128_LOAD16_SPLAT"
+        },
+        {
+          "name": "VECTOR_V128_LOAD32X2_S"
+        },
+        {
+          "name": "VECTOR_V128_LOAD32X2_U"
+        },
+        {
+          "name": "VECTOR_V128_LOAD32_LANE"
+        },
+        {
+          "name": "VECTOR_V128_LOAD32_SPLAT"
+        },
+        {
+          "name": "VECTOR_V128_LOAD32_ZERO"
+        },
+        {
+          "name": "VECTOR_V128_LOAD64_LANE"
+        },
+        {
+          "name": "VECTOR_V128_LOAD64_SPLAT"
+        },
+        {
+          "name": "VECTOR_V128_LOAD64_ZERO"
+        },
+        {
+          "name": "VECTOR_V128_LOAD8X8_S"
+        },
+        {
+          "name": "VECTOR_V128_LOAD8X8_U"
+        },
+        {
+          "name": "VECTOR_V128_LOAD8_LANE"
+        },
+        {
+          "name": "VECTOR_V128_LOAD8_SPLAT"
+        },
+        {
+          "name": "VECTOR_V128_NOT"
+        },
+        {
+          "name": "VECTOR_V128_OR"
+        },
+        {
+          "name": "VECTOR_V128_STORE"
+        },
+        {
+          "name": "VECTOR_V128_STORE16_LANE"
+        },
+        {
+          "name": "VECTOR_V128_STORE32_LANE"
+        },
+        {
+          "name": "VECTOR_V128_STORE64_LANE"
+        },
+        {
+          "name": "VECTOR_V128_STORE8_LANE"
+        },
+        {
+          "name": "VECTOR_V128_XOR"
+        }
+      ]
+    },
+    {
+      "type": "org.graalvm.wasm.constants.Instructions",
+      "fields": [
+        {
+          "name": "ATOMIC"
+        },
+        {
+          "name": "ATOMIC_FENCE"
+        },
+        {
+          "name": "ATOMIC_I32_LOAD"
+        },
+        {
+          "name": "ATOMIC_I32_LOAD16_U"
+        },
+        {
+          "name": "ATOMIC_I32_LOAD8_U"
+        },
+        {
+          "name": "ATOMIC_I32_RMW16_U_ADD"
+        },
+        {
+          "name": "ATOMIC_I32_RMW16_U_AND"
+        },
+        {
+          "name": "ATOMIC_I32_RMW16_U_CMPXCHG"
+        },
+        {
+          "name": "ATOMIC_I32_RMW16_U_OR"
+        },
+        {
+          "name": "ATOMIC_I32_RMW16_U_SUB"
+        },
+        {
+          "name": "ATOMIC_I32_RMW16_U_XCHG"
+        },
+        {
+          "name": "ATOMIC_I32_RMW16_U_XOR"
+        },
+        {
+          "name": "ATOMIC_I32_RMW8_U_ADD"
+        },
+        {
+          "name": "ATOMIC_I32_RMW8_U_AND"
+        },
+        {
+          "name": "ATOMIC_I32_RMW8_U_CMPXCHG"
+        },
+        {
+          "name": "ATOMIC_I32_RMW8_U_OR"
+        },
+        {
+          "name": "ATOMIC_I32_RMW8_U_SUB"
+        },
+        {
+          "name": "ATOMIC_I32_RMW8_U_XCHG"
+        },
+        {
+          "name": "ATOMIC_I32_RMW8_U_XOR"
+        },
+        {
+          "name": "ATOMIC_I32_RMW_ADD"
+        },
+        {
+          "name": "ATOMIC_I32_RMW_AND"
+        },
+        {
+          "name": "ATOMIC_I32_RMW_CMPXCHG"
+        },
+        {
+          "name": "ATOMIC_I32_RMW_OR"
+        },
+        {
+          "name": "ATOMIC_I32_RMW_SUB"
+        },
+        {
+          "name": "ATOMIC_I32_RMW_XCHG"
+        },
+        {
+          "name": "ATOMIC_I32_RMW_XOR"
+        },
+        {
+          "name": "ATOMIC_I32_STORE"
+        },
+        {
+          "name": "ATOMIC_I32_STORE16"
+        },
+        {
+          "name": "ATOMIC_I32_STORE8"
+        },
+        {
+          "name": "ATOMIC_I64_LOAD"
+        },
+        {
+          "name": "ATOMIC_I64_LOAD16_U"
+        },
+        {
+          "name": "ATOMIC_I64_LOAD32_U"
+        },
+        {
+          "name": "ATOMIC_I64_LOAD8_U"
+        },
+        {
+          "name": "ATOMIC_I64_RMW16_U_ADD"
+        },
+        {
+          "name": "ATOMIC_I64_RMW16_U_AND"
+        },
+        {
+          "name": "ATOMIC_I64_RMW16_U_CMPXCHG"
+        },
+        {
+          "name": "ATOMIC_I64_RMW16_U_OR"
+        },
+        {
+          "name": "ATOMIC_I64_RMW16_U_SUB"
+        },
+        {
+          "name": "ATOMIC_I64_RMW16_U_XCHG"
+        },
+        {
+          "name": "ATOMIC_I64_RMW16_U_XOR"
+        },
+        {
+          "name": "ATOMIC_I64_RMW32_U_ADD"
+        },
+        {
+          "name": "ATOMIC_I64_RMW32_U_AND"
+        },
+        {
+          "name": "ATOMIC_I64_RMW32_U_CMPXCHG"
+        },
+        {
+          "name": "ATOMIC_I64_RMW32_U_OR"
+        },
+        {
+          "name": "ATOMIC_I64_RMW32_U_SUB"
+        },
+        {
+          "name": "ATOMIC_I64_RMW32_U_XCHG"
+        },
+        {
+          "name": "ATOMIC_I64_RMW32_U_XOR"
+        },
+        {
+          "name": "ATOMIC_I64_RMW8_U_ADD"
+        },
+        {
+          "name": "ATOMIC_I64_RMW8_U_AND"
+        },
+        {
+          "name": "ATOMIC_I64_RMW8_U_CMPXCHG"
+        },
+        {
+          "name": "ATOMIC_I64_RMW8_U_OR"
+        },
+        {
+          "name": "ATOMIC_I64_RMW8_U_SUB"
+        },
+        {
+          "name": "ATOMIC_I64_RMW8_U_XCHG"
+        },
+        {
+          "name": "ATOMIC_I64_RMW8_U_XOR"
+        },
+        {
+          "name": "ATOMIC_I64_RMW_ADD"
+        },
+        {
+          "name": "ATOMIC_I64_RMW_AND"
+        },
+        {
+          "name": "ATOMIC_I64_RMW_CMPXCHG"
+        },
+        {
+          "name": "ATOMIC_I64_RMW_OR"
+        },
+        {
+          "name": "ATOMIC_I64_RMW_SUB"
+        },
+        {
+          "name": "ATOMIC_I64_RMW_XCHG"
+        },
+        {
+          "name": "ATOMIC_I64_RMW_XOR"
+        },
+        {
+          "name": "ATOMIC_I64_STORE"
+        },
+        {
+          "name": "ATOMIC_I64_STORE16"
+        },
+        {
+          "name": "ATOMIC_I64_STORE32"
+        },
+        {
+          "name": "ATOMIC_I64_STORE8"
+        },
+        {
+          "name": "ATOMIC_NOTIFY"
+        },
+        {
+          "name": "ATOMIC_WAIT32"
+        },
+        {
+          "name": "ATOMIC_WAIT64"
+        },
+        {
+          "name": "BLOCK"
+        },
+        {
+          "name": "BR"
+        },
+        {
+          "name": "BR_IF"
+        },
+        {
+          "name": "BR_TABLE"
+        },
+        {
+          "name": "CALL"
+        },
+        {
+          "name": "CALL_INDIRECT"
+        },
+        {
+          "name": "DATA_DROP"
+        },
+        {
+          "name": "DROP"
+        },
+        {
+          "name": "ELEM_DROP"
+        },
+        {
+          "name": "ELSE"
+        },
+        {
+          "name": "END"
+        },
+        {
+          "name": "F32_ABS"
+        },
+        {
+          "name": "F32_ADD"
+        },
+        {
+          "name": "F32_CEIL"
+        },
+        {
+          "name": "F32_CONST"
+        },
+        {
+          "name": "F32_CONVERT_I32_S"
+        },
+        {
+          "name": "F32_CONVERT_I32_U"
+        },
+        {
+          "name": "F32_CONVERT_I64_S"
+        },
+        {
+          "name": "F32_CONVERT_I64_U"
+        },
+        {
+          "name": "F32_COPYSIGN"
+        },
+        {
+          "name": "F32_DEMOTE_F64"
+        },
+        {
+          "name": "F32_DIV"
+        },
+        {
+          "name": "F32_EQ"
+        },
+        {
+          "name": "F32_FLOOR"
+        },
+        {
+          "name": "F32_GE"
+        },
+        {
+          "name": "F32_GT"
+        },
+        {
+          "name": "F32_LE"
+        },
+        {
+          "name": "F32_LOAD"
+        },
+        {
+          "name": "F32_LT"
+        },
+        {
+          "name": "F32_MAX"
+        },
+        {
+          "name": "F32_MIN"
+        },
+        {
+          "name": "F32_MUL"
+        },
+        {
+          "name": "F32_NE"
+        },
+        {
+          "name": "F32_NEAREST"
+        },
+        {
+          "name": "F32_NEG"
+        },
+        {
+          "name": "F32_REINTERPRET_I32"
+        },
+        {
+          "name": "F32_SQRT"
+        },
+        {
+          "name": "F32_STORE"
+        },
+        {
+          "name": "F32_SUB"
+        },
+        {
+          "name": "F32_TRUNC"
+        },
+        {
+          "name": "F64_ABS"
+        },
+        {
+          "name": "F64_ADD"
+        },
+        {
+          "name": "F64_CEIL"
+        },
+        {
+          "name": "F64_CONST"
+        },
+        {
+          "name": "F64_CONVERT_I32_S"
+        },
+        {
+          "name": "F64_CONVERT_I32_U"
+        },
+        {
+          "name": "F64_CONVERT_I64_S"
+        },
+        {
+          "name": "F64_CONVERT_I64_U"
+        },
+        {
+          "name": "F64_COPYSIGN"
+        },
+        {
+          "name": "F64_DIV"
+        },
+        {
+          "name": "F64_EQ"
+        },
+        {
+          "name": "F64_FLOOR"
+        },
+        {
+          "name": "F64_GE"
+        },
+        {
+          "name": "F64_GT"
+        },
+        {
+          "name": "F64_LE"
+        },
+        {
+          "name": "F64_LOAD"
+        },
+        {
+          "name": "F64_LT"
+        },
+        {
+          "name": "F64_MAX"
+        },
+        {
+          "name": "F64_MIN"
+        },
+        {
+          "name": "F64_MUL"
+        },
+        {
+          "name": "F64_NE"
+        },
+        {
+          "name": "F64_NEAREST"
+        },
+        {
+          "name": "F64_NEG"
+        },
+        {
+          "name": "F64_PROMOTE_F32"
+        },
+        {
+          "name": "F64_REINTERPRET_I64"
+        },
+        {
+          "name": "F64_SQRT"
+        },
+        {
+          "name": "F64_STORE"
+        },
+        {
+          "name": "F64_SUB"
+        },
+        {
+          "name": "F64_TRUNC"
+        },
+        {
+          "name": "GLOBAL_GET"
+        },
+        {
+          "name": "GLOBAL_SET"
+        },
+        {
+          "name": "I32_ADD"
+        },
+        {
+          "name": "I32_AND"
+        },
+        {
+          "name": "I32_CLZ"
+        },
+        {
+          "name": "I32_CONST"
+        },
+        {
+          "name": "I32_CTZ"
+        },
+        {
+          "name": "I32_DIV_S"
+        },
+        {
+          "name": "I32_DIV_U"
+        },
+        {
+          "name": "I32_EQ"
+        },
+        {
+          "name": "I32_EQZ"
+        },
+        {
+          "name": "I32_EXTEND16_S"
+        },
+        {
+          "name": "I32_EXTEND8_S"
+        },
+        {
+          "name": "I32_GE_S"
+        },
+        {
+          "name": "I32_GE_U"
+        },
+        {
+          "name": "I32_GT_S"
+        },
+        {
+          "name": "I32_GT_U"
+        },
+        {
+          "name": "I32_LE_S"
+        },
+        {
+          "name": "I32_LE_U"
+        },
+        {
+          "name": "I32_LOAD"
+        },
+        {
+          "name": "I32_LOAD16_S"
+        },
+        {
+          "name": "I32_LOAD16_U"
+        },
+        {
+          "name": "I32_LOAD8_S"
+        },
+        {
+          "name": "I32_LOAD8_U"
+        },
+        {
+          "name": "I32_LT_S"
+        },
+        {
+          "name": "I32_LT_U"
+        },
+        {
+          "name": "I32_MUL"
+        },
+        {
+          "name": "I32_NE"
+        },
+        {
+          "name": "I32_OR"
+        },
+        {
+          "name": "I32_POPCNT"
+        },
+        {
+          "name": "I32_REINTERPRET_F32"
+        },
+        {
+          "name": "I32_REM_S"
+        },
+        {
+          "name": "I32_REM_U"
+        },
+        {
+          "name": "I32_ROTL"
+        },
+        {
+          "name": "I32_ROTR"
+        },
+        {
+          "name": "I32_SHL"
+        },
+        {
+          "name": "I32_SHR_S"
+        },
+        {
+          "name": "I32_SHR_U"
+        },
+        {
+          "name": "I32_STORE"
+        },
+        {
+          "name": "I32_STORE_16"
+        },
+        {
+          "name": "I32_STORE_8"
+        },
+        {
+          "name": "I32_SUB"
+        },
+        {
+          "name": "I32_TRUNC_F32_S"
+        },
+        {
+          "name": "I32_TRUNC_F32_U"
+        },
+        {
+          "name": "I32_TRUNC_F64_S"
+        },
+        {
+          "name": "I32_TRUNC_F64_U"
+        },
+        {
+          "name": "I32_TRUNC_SAT_F32_S"
+        },
+        {
+          "name": "I32_TRUNC_SAT_F32_U"
+        },
+        {
+          "name": "I32_TRUNC_SAT_F64_S"
+        },
+        {
+          "name": "I32_TRUNC_SAT_F64_U"
+        },
+        {
+          "name": "I32_WRAP_I64"
+        },
+        {
+          "name": "I32_XOR"
+        },
+        {
+          "name": "I64_ADD"
+        },
+        {
+          "name": "I64_AND"
+        },
+        {
+          "name": "I64_CLZ"
+        },
+        {
+          "name": "I64_CONST"
+        },
+        {
+          "name": "I64_CTZ"
+        },
+        {
+          "name": "I64_DIV_S"
+        },
+        {
+          "name": "I64_DIV_U"
+        },
+        {
+          "name": "I64_EQ"
+        },
+        {
+          "name": "I64_EQZ"
+        },
+        {
+          "name": "I64_EXTEND16_S"
+        },
+        {
+          "name": "I64_EXTEND32_S"
+        },
+        {
+          "name": "I64_EXTEND8_S"
+        },
+        {
+          "name": "I64_EXTEND_I32_S"
+        },
+        {
+          "name": "I64_EXTEND_I32_U"
+        },
+        {
+          "name": "I64_GE_S"
+        },
+        {
+          "name": "I64_GE_U"
+        },
+        {
+          "name": "I64_GT_S"
+        },
+        {
+          "name": "I64_GT_U"
+        },
+        {
+          "name": "I64_LE_S"
+        },
+        {
+          "name": "I64_LE_U"
+        },
+        {
+          "name": "I64_LOAD"
+        },
+        {
+          "name": "I64_LOAD16_S"
+        },
+        {
+          "name": "I64_LOAD16_U"
+        },
+        {
+          "name": "I64_LOAD32_S"
+        },
+        {
+          "name": "I64_LOAD32_U"
+        },
+        {
+          "name": "I64_LOAD8_S"
+        },
+        {
+          "name": "I64_LOAD8_U"
+        },
+        {
+          "name": "I64_LT_S"
+        },
+        {
+          "name": "I64_LT_U"
+        },
+        {
+          "name": "I64_MUL"
+        },
+        {
+          "name": "I64_NE"
+        },
+        {
+          "name": "I64_OR"
+        },
+        {
+          "name": "I64_POPCNT"
+        },
+        {
+          "name": "I64_REINTERPRET_F64"
+        },
+        {
+          "name": "I64_REM_S"
+        },
+        {
+          "name": "I64_REM_U"
+        },
+        {
+          "name": "I64_ROTL"
+        },
+        {
+          "name": "I64_ROTR"
+        },
+        {
+          "name": "I64_SHL"
+        },
+        {
+          "name": "I64_SHR_S"
+        },
+        {
+          "name": "I64_SHR_U"
+        },
+        {
+          "name": "I64_STORE"
+        },
+        {
+          "name": "I64_STORE_16"
+        },
+        {
+          "name": "I64_STORE_32"
+        },
+        {
+          "name": "I64_STORE_8"
+        },
+        {
+          "name": "I64_SUB"
+        },
+        {
+          "name": "I64_TRUNC_F32_S"
+        },
+        {
+          "name": "I64_TRUNC_F32_U"
+        },
+        {
+          "name": "I64_TRUNC_F64_S"
+        },
+        {
+          "name": "I64_TRUNC_F64_U"
+        },
+        {
+          "name": "I64_TRUNC_SAT_F32_S"
+        },
+        {
+          "name": "I64_TRUNC_SAT_F32_U"
+        },
+        {
+          "name": "I64_TRUNC_SAT_F64_S"
+        },
+        {
+          "name": "I64_TRUNC_SAT_F64_U"
+        },
+        {
+          "name": "I64_XOR"
+        },
+        {
+          "name": "IF"
+        },
+        {
+          "name": "LOCAL_GET"
+        },
+        {
+          "name": "LOCAL_SET"
+        },
+        {
+          "name": "LOCAL_TEE"
+        },
+        {
+          "name": "LOOP"
+        },
+        {
+          "name": "MEMORY_COPY"
+        },
+        {
+          "name": "MEMORY_FILL"
+        },
+        {
+          "name": "MEMORY_GROW"
+        },
+        {
+          "name": "MEMORY_INIT"
+        },
+        {
+          "name": "MEMORY_SIZE"
+        },
+        {
+          "name": "MISC"
+        },
+        {
+          "name": "NOP"
+        },
+        {
+          "name": "REF_FUNC"
+        },
+        {
+          "name": "REF_IS_NULL"
+        },
+        {
+          "name": "REF_NULL"
+        },
+        {
+          "name": "RETURN"
+        },
+        {
+          "name": "SELECT"
+        },
+        {
+          "name": "SELECT_T"
+        },
+        {
+          "name": "TABLE_COPY"
+        },
+        {
+          "name": "TABLE_FILL"
+        },
+        {
+          "name": "TABLE_GET"
+        },
+        {
+          "name": "TABLE_GROW"
+        },
+        {
+          "name": "TABLE_INIT"
+        },
+        {
+          "name": "TABLE_SET"
+        },
+        {
+          "name": "TABLE_SIZE"
+        },
+        {
+          "name": "UNREACHABLE"
+        },
+        {
+          "name": "VECTOR"
+        },
+        {
+          "name": "VECTOR_F32X4_ABS"
+        },
+        {
+          "name": "VECTOR_F32X4_ADD"
+        },
+        {
+          "name": "VECTOR_F32X4_CEIL"
+        },
+        {
+          "name": "VECTOR_F32X4_CONVERT_I32X4_S"
+        },
+        {
+          "name": "VECTOR_F32X4_CONVERT_I32X4_U"
+        },
+        {
+          "name": "VECTOR_F32X4_DEMOTE_F64X2_ZERO"
+        },
+        {
+          "name": "VECTOR_F32X4_DIV"
+        },
+        {
+          "name": "VECTOR_F32X4_EQ"
+        },
+        {
+          "name": "VECTOR_F32X4_EXTRACT_LANE"
+        },
+        {
+          "name": "VECTOR_F32X4_FLOOR"
+        },
+        {
+          "name": "VECTOR_F32X4_GE"
+        },
+        {
+          "name": "VECTOR_F32X4_GT"
+        },
+        {
+          "name": "VECTOR_F32X4_LE"
+        },
+        {
+          "name": "VECTOR_F32X4_LT"
+        },
+        {
+          "name": "VECTOR_F32X4_MAX"
+        },
+        {
+          "name": "VECTOR_F32X4_MIN"
+        },
+        {
+          "name": "VECTOR_F32X4_MUL"
+        },
+        {
+          "name": "VECTOR_F32X4_NE"
+        },
+        {
+          "name": "VECTOR_F32X4_NEAREST"
+        },
+        {
+          "name": "VECTOR_F32X4_NEG"
+        },
+        {
+          "name": "VECTOR_F32X4_PMAX"
+        },
+        {
+          "name": "VECTOR_F32X4_PMIN"
+        },
+        {
+          "name": "VECTOR_F32X4_RELAXED_MADD"
+        },
+        {
+          "name": "VECTOR_F32X4_RELAXED_MAX"
+        },
+        {
+          "name": "VECTOR_F32X4_RELAXED_MIN"
+        },
+        {
+          "name": "VECTOR_F32X4_RELAXED_NMADD"
+        },
+        {
+          "name": "VECTOR_F32X4_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_F32X4_SPLAT"
+        },
+        {
+          "name": "VECTOR_F32X4_SQRT"
+        },
+        {
+          "name": "VECTOR_F32X4_SUB"
+        },
+        {
+          "name": "VECTOR_F32X4_TRUNC"
+        },
+        {
+          "name": "VECTOR_F64X2_ABS"
+        },
+        {
+          "name": "VECTOR_F64X2_ADD"
+        },
+        {
+          "name": "VECTOR_F64X2_CEIL"
+        },
+        {
+          "name": "VECTOR_F64X2_CONVERT_LOW_I32X4_S"
+        },
+        {
+          "name": "VECTOR_F64X2_CONVERT_LOW_I32X4_U"
+        },
+        {
+          "name": "VECTOR_F64X2_DIV"
+        },
+        {
+          "name": "VECTOR_F64X2_EQ"
+        },
+        {
+          "name": "VECTOR_F64X2_EXTRACT_LANE"
+        },
+        {
+          "name": "VECTOR_F64X2_FLOOR"
+        },
+        {
+          "name": "VECTOR_F64X2_GE"
+        },
+        {
+          "name": "VECTOR_F64X2_GT"
+        },
+        {
+          "name": "VECTOR_F64X2_LE"
+        },
+        {
+          "name": "VECTOR_F64X2_LT"
+        },
+        {
+          "name": "VECTOR_F64X2_MAX"
+        },
+        {
+          "name": "VECTOR_F64X2_MIN"
+        },
+        {
+          "name": "VECTOR_F64X2_MUL"
+        },
+        {
+          "name": "VECTOR_F64X2_NE"
+        },
+        {
+          "name": "VECTOR_F64X2_NEAREST"
+        },
+        {
+          "name": "VECTOR_F64X2_NEG"
+        },
+        {
+          "name": "VECTOR_F64X2_PMAX"
+        },
+        {
+          "name": "VECTOR_F64X2_PMIN"
+        },
+        {
+          "name": "VECTOR_F64X2_PROMOTE_LOW_F32X4"
+        },
+        {
+          "name": "VECTOR_F64X2_RELAXED_MADD"
+        },
+        {
+          "name": "VECTOR_F64X2_RELAXED_MAX"
+        },
+        {
+          "name": "VECTOR_F64X2_RELAXED_MIN"
+        },
+        {
+          "name": "VECTOR_F64X2_RELAXED_NMADD"
+        },
+        {
+          "name": "VECTOR_F64X2_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_F64X2_SPLAT"
+        },
+        {
+          "name": "VECTOR_F64X2_SQRT"
+        },
+        {
+          "name": "VECTOR_F64X2_SUB"
+        },
+        {
+          "name": "VECTOR_F64X2_TRUNC"
+        },
+        {
+          "name": "VECTOR_I16X8_ABS"
+        },
+        {
+          "name": "VECTOR_I16X8_ADD"
+        },
+        {
+          "name": "VECTOR_I16X8_ADD_SAT_S"
+        },
+        {
+          "name": "VECTOR_I16X8_ADD_SAT_U"
+        },
+        {
+          "name": "VECTOR_I16X8_ALL_TRUE"
+        },
+        {
+          "name": "VECTOR_I16X8_AVGR_U"
+        },
+        {
+          "name": "VECTOR_I16X8_BITMASK"
+        },
+        {
+          "name": "VECTOR_I16X8_EQ"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTADD_PAIRWISE_I8X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTADD_PAIRWISE_I8X16_U"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTEND_HIGH_I8X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTEND_HIGH_I8X16_U"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTEND_LOW_I8X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTEND_LOW_I8X16_U"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTMUL_HIGH_I8X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTMUL_HIGH_I8X16_U"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTMUL_LOW_I8X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTMUL_LOW_I8X16_U"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTRACT_LANE_S"
+        },
+        {
+          "name": "VECTOR_I16X8_EXTRACT_LANE_U"
+        },
+        {
+          "name": "VECTOR_I16X8_GE_S"
+        },
+        {
+          "name": "VECTOR_I16X8_GE_U"
+        },
+        {
+          "name": "VECTOR_I16X8_GT_S"
+        },
+        {
+          "name": "VECTOR_I16X8_GT_U"
+        },
+        {
+          "name": "VECTOR_I16X8_LE_S"
+        },
+        {
+          "name": "VECTOR_I16X8_LE_U"
+        },
+        {
+          "name": "VECTOR_I16X8_LT_S"
+        },
+        {
+          "name": "VECTOR_I16X8_LT_U"
+        },
+        {
+          "name": "VECTOR_I16X8_MAX_S"
+        },
+        {
+          "name": "VECTOR_I16X8_MAX_U"
+        },
+        {
+          "name": "VECTOR_I16X8_MIN_S"
+        },
+        {
+          "name": "VECTOR_I16X8_MIN_U"
+        },
+        {
+          "name": "VECTOR_I16X8_MUL"
+        },
+        {
+          "name": "VECTOR_I16X8_NARROW_I32X4_S"
+        },
+        {
+          "name": "VECTOR_I16X8_NARROW_I32X4_U"
+        },
+        {
+          "name": "VECTOR_I16X8_NE"
+        },
+        {
+          "name": "VECTOR_I16X8_NEG"
+        },
+        {
+          "name": "VECTOR_I16X8_Q15MULR_SAT_S"
+        },
+        {
+          "name": "VECTOR_I16X8_RELAXED_DOT_I8X16_I7X16_S"
+        },
+        {
+          "name": "VECTOR_I16X8_RELAXED_LANESELECT"
+        },
+        {
+          "name": "VECTOR_I16X8_RELAXED_Q15MULR_S"
+        },
+        {
+          "name": "VECTOR_I16X8_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_I16X8_SHL"
+        },
+        {
+          "name": "VECTOR_I16X8_SHR_S"
+        },
+        {
+          "name": "VECTOR_I16X8_SHR_U"
+        },
+        {
+          "name": "VECTOR_I16X8_SPLAT"
+        },
+        {
+          "name": "VECTOR_I16X8_SUB"
+        },
+        {
+          "name": "VECTOR_I16X8_SUB_SAT_S"
+        },
+        {
+          "name": "VECTOR_I16X8_SUB_SAT_U"
+        },
+        {
+          "name": "VECTOR_I32X4_ABS"
+        },
+        {
+          "name": "VECTOR_I32X4_ADD"
+        },
+        {
+          "name": "VECTOR_I32X4_ALL_TRUE"
+        },
+        {
+          "name": "VECTOR_I32X4_BITMASK"
+        },
+        {
+          "name": "VECTOR_I32X4_DOT_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EQ"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTADD_PAIRWISE_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTADD_PAIRWISE_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTEND_HIGH_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTEND_HIGH_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTEND_LOW_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTEND_LOW_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTMUL_HIGH_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTMUL_HIGH_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTMUL_LOW_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTMUL_LOW_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I32X4_EXTRACT_LANE"
+        },
+        {
+          "name": "VECTOR_I32X4_GE_S"
+        },
+        {
+          "name": "VECTOR_I32X4_GE_U"
+        },
+        {
+          "name": "VECTOR_I32X4_GT_S"
+        },
+        {
+          "name": "VECTOR_I32X4_GT_U"
+        },
+        {
+          "name": "VECTOR_I32X4_LE_S"
+        },
+        {
+          "name": "VECTOR_I32X4_LE_U"
+        },
+        {
+          "name": "VECTOR_I32X4_LT_S"
+        },
+        {
+          "name": "VECTOR_I32X4_LT_U"
+        },
+        {
+          "name": "VECTOR_I32X4_MAX_S"
+        },
+        {
+          "name": "VECTOR_I32X4_MAX_U"
+        },
+        {
+          "name": "VECTOR_I32X4_MIN_S"
+        },
+        {
+          "name": "VECTOR_I32X4_MIN_U"
+        },
+        {
+          "name": "VECTOR_I32X4_MUL"
+        },
+        {
+          "name": "VECTOR_I32X4_NE"
+        },
+        {
+          "name": "VECTOR_I32X4_NEG"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_DOT_I8X16_I7X16_ADD_S"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_LANESELECT"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_TRUNC_F32X4_S"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_TRUNC_F32X4_U"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_TRUNC_F64X2_S_ZERO"
+        },
+        {
+          "name": "VECTOR_I32X4_RELAXED_TRUNC_F64X2_U_ZERO"
+        },
+        {
+          "name": "VECTOR_I32X4_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_I32X4_SHL"
+        },
+        {
+          "name": "VECTOR_I32X4_SHR_S"
+        },
+        {
+          "name": "VECTOR_I32X4_SHR_U"
+        },
+        {
+          "name": "VECTOR_I32X4_SPLAT"
+        },
+        {
+          "name": "VECTOR_I32X4_SUB"
+        },
+        {
+          "name": "VECTOR_I32X4_TRUNC_SAT_F32X4_S"
+        },
+        {
+          "name": "VECTOR_I32X4_TRUNC_SAT_F32X4_U"
+        },
+        {
+          "name": "VECTOR_I32X4_TRUNC_SAT_F64X2_S_ZERO"
+        },
+        {
+          "name": "VECTOR_I32X4_TRUNC_SAT_F64X2_U_ZERO"
+        },
+        {
+          "name": "VECTOR_I64X2_ABS"
+        },
+        {
+          "name": "VECTOR_I64X2_ADD"
+        },
+        {
+          "name": "VECTOR_I64X2_ALL_TRUE"
+        },
+        {
+          "name": "VECTOR_I64X2_BITMASK"
+        },
+        {
+          "name": "VECTOR_I64X2_EQ"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTEND_HIGH_I32X4_S"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTEND_HIGH_I32X4_U"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTEND_LOW_I32X4_S"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTEND_LOW_I32X4_U"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTMUL_HIGH_I32X4_S"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTMUL_HIGH_I32X4_U"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTMUL_LOW_I32X4_S"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTMUL_LOW_I32X4_U"
+        },
+        {
+          "name": "VECTOR_I64X2_EXTRACT_LANE"
+        },
+        {
+          "name": "VECTOR_I64X2_GE_S"
+        },
+        {
+          "name": "VECTOR_I64X2_GT_S"
+        },
+        {
+          "name": "VECTOR_I64X2_LE_S"
+        },
+        {
+          "name": "VECTOR_I64X2_LT_S"
+        },
+        {
+          "name": "VECTOR_I64X2_MUL"
+        },
+        {
+          "name": "VECTOR_I64X2_NE"
+        },
+        {
+          "name": "VECTOR_I64X2_NEG"
+        },
+        {
+          "name": "VECTOR_I64X2_RELAXED_LANESELECT"
+        },
+        {
+          "name": "VECTOR_I64X2_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_I64X2_SHL"
+        },
+        {
+          "name": "VECTOR_I64X2_SHR_S"
+        },
+        {
+          "name": "VECTOR_I64X2_SHR_U"
+        },
+        {
+          "name": "VECTOR_I64X2_SPLAT"
+        },
+        {
+          "name": "VECTOR_I64X2_SUB"
+        },
+        {
+          "name": "VECTOR_I8X16_ABS"
+        },
+        {
+          "name": "VECTOR_I8X16_ADD"
+        },
+        {
+          "name": "VECTOR_I8X16_ADD_SAT_S"
+        },
+        {
+          "name": "VECTOR_I8X16_ADD_SAT_U"
+        },
+        {
+          "name": "VECTOR_I8X16_ALL_TRUE"
+        },
+        {
+          "name": "VECTOR_I8X16_AVGR_U"
+        },
+        {
+          "name": "VECTOR_I8X16_BITMASK"
+        },
+        {
+          "name": "VECTOR_I8X16_EQ"
+        },
+        {
+          "name": "VECTOR_I8X16_EXTRACT_LANE_S"
+        },
+        {
+          "name": "VECTOR_I8X16_EXTRACT_LANE_U"
+        },
+        {
+          "name": "VECTOR_I8X16_GE_S"
+        },
+        {
+          "name": "VECTOR_I8X16_GE_U"
+        },
+        {
+          "name": "VECTOR_I8X16_GT_S"
+        },
+        {
+          "name": "VECTOR_I8X16_GT_U"
+        },
+        {
+          "name": "VECTOR_I8X16_LE_S"
+        },
+        {
+          "name": "VECTOR_I8X16_LE_U"
+        },
+        {
+          "name": "VECTOR_I8X16_LT_S"
+        },
+        {
+          "name": "VECTOR_I8X16_LT_U"
+        },
+        {
+          "name": "VECTOR_I8X16_MAX_S"
+        },
+        {
+          "name": "VECTOR_I8X16_MAX_U"
+        },
+        {
+          "name": "VECTOR_I8X16_MIN_S"
+        },
+        {
+          "name": "VECTOR_I8X16_MIN_U"
+        },
+        {
+          "name": "VECTOR_I8X16_NARROW_I16X8_S"
+        },
+        {
+          "name": "VECTOR_I8X16_NARROW_I16X8_U"
+        },
+        {
+          "name": "VECTOR_I8X16_NE"
+        },
+        {
+          "name": "VECTOR_I8X16_NEG"
+        },
+        {
+          "name": "VECTOR_I8X16_POPCNT"
+        },
+        {
+          "name": "VECTOR_I8X16_RELAXED_LANESELECT"
+        },
+        {
+          "name": "VECTOR_I8X16_RELAXED_SWIZZLE"
+        },
+        {
+          "name": "VECTOR_I8X16_REPLACE_LANE"
+        },
+        {
+          "name": "VECTOR_I8X16_SHL"
+        },
+        {
+          "name": "VECTOR_I8X16_SHR_S"
+        },
+        {
+          "name": "VECTOR_I8X16_SHR_U"
+        },
+        {
+          "name": "VECTOR_I8X16_SHUFFLE"
+        },
+        {
+          "name": "VECTOR_I8X16_SPLAT"
+        },
+        {
+          "name": "VECTOR_I8X16_SUB"
+        },
+        {
+          "name": "VECTOR_I8X16_SUB_SAT_S"
+        },
+        {
+          "name": "VECTOR_I8X16_SUB_SAT_U"
+        },
+        {
+          "name": "VECTOR_I8X16_SWIZZLE"
+        },
+        {
+          "name": "VECTOR_V128_AND"
+        },
+        {
+          "name": "VECTOR_V128_ANDNOT"
+        },
+        {
+          "name": "VECTOR_V128_ANY_TRUE"
+        },
+        {
+          "name": "VECTOR_V128_BITSELECT"
+        },
+        {
+          "name": "VECTOR_V128_CONST"
+        },
+        {
+          "name": "VECTOR_V128_LOAD"
+        },
+        {
+          "name": "VECTOR_V128_LOAD16X4_S"
+        },
+        {
+          "name": "VECTOR_V128_LOAD16X4_U"
+        },
+        {
+          "name": "VECTOR_V128_LOAD16_LANE"
+        },
+        {
+          "name": "VECTOR_V128_LOAD16_SPLAT"
+        },
+        {
+          "name": "VECTOR_V128_LOAD32X2_S"
+        },
+        {
+          "name": "VECTOR_V128_LOAD32X2_U"
+        },
+        {
+          "name": "VECTOR_V128_LOAD32_LANE"
+        },
+        {
+          "name": "VECTOR_V128_LOAD32_SPLAT"
+        },
+        {
+          "name": "VECTOR_V128_LOAD32_ZERO"
+        },
+        {
+          "name": "VECTOR_V128_LOAD64_LANE"
+        },
+        {
+          "name": "VECTOR_V128_LOAD64_SPLAT"
+        },
+        {
+          "name": "VECTOR_V128_LOAD64_ZERO"
+        },
+        {
+          "name": "VECTOR_V128_LOAD8X8_S"
+        },
+        {
+          "name": "VECTOR_V128_LOAD8X8_U"
+        },
+        {
+          "name": "VECTOR_V128_LOAD8_LANE"
+        },
+        {
+          "name": "VECTOR_V128_LOAD8_SPLAT"
+        },
+        {
+          "name": "VECTOR_V128_NOT"
+        },
+        {
+          "name": "VECTOR_V128_OR"
+        },
+        {
+          "name": "VECTOR_V128_STORE"
+        },
+        {
+          "name": "VECTOR_V128_STORE16_LANE"
+        },
+        {
+          "name": "VECTOR_V128_STORE32_LANE"
+        },
+        {
+          "name": "VECTOR_V128_STORE64_LANE"
+        },
+        {
+          "name": "VECTOR_V128_STORE8_LANE"
+        },
+        {
+          "name": "VECTOR_V128_XOR"
+        }
+      ]
+    },
+    {
+      "type": "org.graalvm.wasm.memory.WasmMemoryLibrary"
+    },
+    {
+      "type": "sun.launcher.LauncherHelper",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "isStaticMain"
+        },
+        {
+          "name": "noArgMain"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getApplicationClass",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.text.resources.cldr.FormatData"
+    }
+  ],
+  "resources": [
+    {
+      "glob": "META-INF/graalvm/org.graalvm.polyglot/version"
+    },
+    {
+      "glob": "META-INF/graalvm/org.graalvm.truffle/version"
+    },
+    {
+      "glob": "META-INF/resources/engine/libtruffleattach/windows/amd64/sha256"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.TruffleRuntimeAccess"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.impl.TruffleLocator"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.instrumentation.provider.TruffleInstrumentProvider"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.library.provider.DefaultExportProvider"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.provider.InternalResourceProvider"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.provider.TruffleLanguageProvider"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.strings.provider.JCodingsProvider"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.js.runtime.Evaluator"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.runtime.EngineCacheSupport"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.runtime.FloodControlHandler"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.runtime.LoopNodeFactory"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.runtime.TruffleTypes"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.runtime.jfr.EventFactory$Provider"
+    },
+    {
+      "glob": "META-INF/services/java.nio.file.spi.FileSystemProvider"
+    },
+    {
+      "glob": "META-INF/services/java.util.prefs.PreferencesFactory"
+    },
+    {
+      "glob": "META-INF/services/org.graalvm.home.HomeFinder"
+    },
+    {
+      "glob": "META-INF/services/org.graalvm.polyglot.impl.AbstractPolyglotImpl"
+    },
+    {
+      "glob": "org/eclipse/swt/internal/Library.class"
+    },
+    {
+      "glob": "stockfish/stockfish-18-lite-single.js"
+    },
+    {
+      "glob": "stockfish/stockfish-18-lite-single.wasm"
+    },
+    {
+      "glob": "stockfish/stockfish-graaljs-bridge.js"
+    },
+    {
+      "module": "jdk.jfr",
+      "glob": "jdk/jfr/internal/types/metadata.bin"
+    },
+    {
+      "bundle": "sun.launcher.resources.launcher"
+    }
+  ]
+}

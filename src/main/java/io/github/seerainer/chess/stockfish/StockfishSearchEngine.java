@@ -53,7 +53,6 @@ public class StockfishSearchEngine implements AutoCloseable {
 
 	if (initAttempted.compareAndSet(false, true)) {
 	    try {
-		System.out.println("Initializing Stockfish WASM engine...");
 		final var startTime = System.currentTimeMillis();
 
 		engine.initialize();
