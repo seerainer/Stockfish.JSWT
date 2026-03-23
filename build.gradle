@@ -11,7 +11,7 @@ version = '0.1.1'
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(25)
-        vendor = JvmVendorSpec.ORACLE // GRAAL_VM
+        vendor = JvmVendorSpec.GRAAL_VM
     }
 }
 
