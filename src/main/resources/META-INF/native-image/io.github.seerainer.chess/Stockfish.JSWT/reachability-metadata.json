@@ -85,6 +85,9 @@
       "type": "org.eclipse.swt.dnd.Clipboard$1"
     },
     {
+      "type": "org.eclipse.swt.dnd.OleEnumFORMATETC$1"
+    },
+    {
       "type": "org.eclipse.swt.internal.BidiUtil",
       "jniAccessible": true,
       "methods": [
@@ -400,6 +403,27 @@
       ]
     },
     {
+      "type": "org.eclipse.swt.internal.ole.win32.FORMATETC",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "cfFormat"
+        },
+        {
+          "name": "dwAspect"
+        },
+        {
+          "name": "lindex"
+        },
+        {
+          "name": "ptd"
+        },
+        {
+          "name": "tymed"
+        }
+      ]
+    },
+    {
       "type": "org.eclipse.swt.internal.ole.win32.GUID",
       "jniAccessible": true,
       "fields": [
@@ -414,6 +438,21 @@
         },
         {
           "name": "Data4"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.ole.win32.STGMEDIUM",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "pUnkForRelease"
+        },
+        {
+          "name": "tymed"
+        },
+        {
+          "name": "unionField"
         }
       ]
     },
@@ -903,6 +942,18 @@
         },
         {
           "name": "uFlags"
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.swt.internal.win32.NMUPDOWN",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "iDelta"
+        },
+        {
+          "name": "iPos"
         }
       ]
     },
