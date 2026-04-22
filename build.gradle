@@ -67,9 +67,9 @@ dependencies {
     implementation 'com.github.bhlangonijr:chesslib:1.3.6'
 
     // GraalVM Polyglot API for Stockfish WASM integration
-    implementation 'org.graalvm.polyglot:polyglot:25.0.2'
-    implementation 'org.graalvm.polyglot:js:25.0.2'
-    implementation 'org.graalvm.polyglot:wasm:25.0.2'
+    implementation 'org.graalvm.polyglot:polyglot:25.0.3'
+    implementation 'org.graalvm.polyglot:js:25.0.3'
+    implementation 'org.graalvm.polyglot:wasm:25.0.3'
 
     // Testing dependencies
     testImplementation 'org.junit.jupiter:junit-jupiter:6.0.3'
