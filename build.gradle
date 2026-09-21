@@ -2,7 +2,7 @@ plugins {
     id 'java'
     id 'eclipse'
     id 'application'
-    id 'org.graalvm.buildtools.native' version '1.1.12'
+    id 'org.graalvm.buildtools.native' version '1.1.13'
 }
 
 group = 'io.github.seerainer.chess'
@@ -11,7 +11,7 @@ version = '0.1.1'
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(25)
-        vendor = JvmVendorSpec.GRAAL_VM
+        // vendor = JvmVendorSpec.GRAAL_VM
     }
 }
 
@@ -21,7 +21,7 @@ repositories {
 }
 
 ext {
-    swtVersion = '3.133.0'
+    swtVersion = '3.135.0'
     swtArtifact = 'org.eclipse.swt.'
     os = System.getProperty("os.name").toLowerCase()
     arch = System.getProperty("os.arch")
@@ -145,6 +145,7 @@ graalvmNative {
             mainClass = application.mainClass
             buildArgs.add('-march=compatibility')
             buildArgs.add('-Os')
+            buildArgs.add('--add-modules=jdk.incubator.vector')
             buildArgs.add('--add-modules=org.graalvm.polyglot')
             buildArgs.add('--initialize-at-build-time=org.eclipse.swt.internal.AutoScaleCalculation$AutoScaleQuarter')
             buildArgs.add('--initialize-at-build-time=org.eclipse.swt.internal.DPIUtil')
@@ -152,7 +153,6 @@ graalvmNative {
             buildArgs.add('--initialize-at-build-time=org.eclipse.swt.internal.DPIUtil$UseSmoothScalingProvider')
             buildArgs.add('--enable-native-access=ALL-UNNAMED')
             buildArgs.add('--enable-native-access=org.graalvm.truffle')
-            buildArgs.add('--no-fallback')
             buildArgs.add('-H:+UnlockExperimentalVMOptions')
             buildArgs.add('-H:+VectorAPISupport')
             buildArgs.add('-H:+RemoveUnusedSymbols')
