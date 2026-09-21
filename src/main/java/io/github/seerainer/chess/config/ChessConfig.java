@@ -75,28 +75,4 @@ public class ChessConfig {
 	public static final String WINDOW_TITLE = "Stockfish.JSWT";
 	public static final int BOARD_SIZE = 640;
     }
-
-    // 3D Rendering Configuration
-    public static final class Rendering3D {
-	/** Width of the GLFW 3D window in pixels. */
-	public static final int WINDOW_WIDTH = 800;
-	/** Height of the GLFW 3D window in pixels. */
-	public static final int WINDOW_HEIGHT = 800;
-	/** Title shown on the 3D window. */
-	public static final String WINDOW_TITLE = "Stockfish.JSWT — 3D Board";
-	/** Vertical field-of-view for the perspective camera, in degrees. */
-	public static final float FOV_DEGREES = 45.0f;
-	/** Near clip plane distance. */
-	public static final float NEAR_PLANE = 0.1f;
-	/** Far clip plane distance. */
-	public static final float FAR_PLANE = 100.0f;
-	/** Camera eye position — height above the board (Y axis). */
-	public static final float CAMERA_Y = 8.0f;
-	/** Camera eye position — distance back along Z axis. */
-	public static final float CAMERA_Z = 10.0f;
-	/** Piece glyph font size (points) used when baking the glyph texture atlas. */
-	public static final int GLYPH_FONT_SIZE = 64;
-	/** Size in pixels of each glyph cell in the texture atlas. */
-	public static final int GLYPH_CELL_SIZE = 72;
-    }
 }
