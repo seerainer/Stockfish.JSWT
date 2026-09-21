@@ -222,7 +222,7 @@ public class ChessGameUI {
     }
 
     /**
-     * Redraws whichever board view is currently active (2D or 3D).
+     * Redraws board.
      */
     private void redrawActiveView() {
 	chessBoard.redraw();
@@ -403,29 +403,6 @@ public class ChessGameUI {
 	    return true;
 	}
 	return board.getSideToMove() == playerSide && !aiThinking;
-    }
-
-    /**
-     * Returns the SWT {@link Display} used by this UI.
-     *
-     * @return the display instance
-     */
-    Display getDisplay() {
-	return display;
-    }
-
-    /**
-     * Handles a square click originating from the 3D GLFW window. Must be called on
-     * the SWT display thread.
-     *
-     * @param col board file index (0 = a-file)
-     * @param row board rank-row index (0 = rank 8 / top of board)
-     */
-    void handleExternalClick(final int col, final int row) {
-	if (!isPlayerTurn()) {
-	    return;
-	}
-	chessBoard.handleExternalClick(col, row);
     }
 
     private void makeAIMove() {

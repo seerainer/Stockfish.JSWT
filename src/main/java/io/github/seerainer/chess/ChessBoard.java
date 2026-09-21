@@ -329,17 +329,6 @@ public class ChessBoard extends Canvas {
 	this.legalMoves = null;
     }
 
-    /**
-     * Handles a square-click event arriving from an external source (e.g. the 3D
-     * GLFW window). Must be called on the SWT display thread.
-     *
-     * @param col board file index (0 = a-file)
-     * @param row board rank-row index (0 = rank 8 / top of 2D board)
-     */
-    void handleExternalClick(final int col, final int row) {
-	handleMouseClick(col * SQUARE_SIZE + SQUARE_SIZE / 2, row * SQUARE_SIZE + SQUARE_SIZE / 2);
-    }
-
     private void setupEventHandlers() {
 	addPaintListener(e -> drawBoard(e.gc));
 	addMouseListener(mouseDownAdapter(e -> handleMouseClick(e.x, e.y)));
