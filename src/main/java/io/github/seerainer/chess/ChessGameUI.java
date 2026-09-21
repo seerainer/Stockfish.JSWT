@@ -221,6 +221,13 @@ public class ChessGameUI {
 	consoleItem.addSelectionListener(widgetSelectedAdapter(_ -> outputConsole.reopen()));
     }
 
+    /**
+     * Redraws whichever board view is currently active (2D or 3D).
+     */
+    private void redrawActiveView() {
+	chessBoard.redraw();
+    }
+
     private void createShell() {
 	shell = new Shell(display, SWT.SHELL_TRIM);
 	shell.setText(ChessConfig.UI.WINDOW_TITLE); // Now using configuration
@@ -398,6 +405,29 @@ public class ChessGameUI {
 	return board.getSideToMove() == playerSide && !aiThinking;
     }
 
+    /**
+     * Returns the SWT {@link Display} used by this UI.
+     *
+     * @return the display instance
+     */
+    Display getDisplay() {
+	return display;
+    }
+
+    /**
+     * Handles a square click originating from the 3D GLFW window. Must be called on
+     * the SWT display thread.
+     *
+     * @param col board file index (0 = a-file)
+     * @param row board rank-row index (0 = rank 8 / top of board)
+     */
+    void handleExternalClick(final int col, final int row) {
+	if (!isPlayerTurn()) {
+	    return;
+	}
+	chessBoard.handleExternalClick(col, row);
+    }
+
     private void makeAIMove() {
 	if (aiThinking) {
 	    return; // Prevent multiple AI moves
@@ -484,7 +514,7 @@ public class ChessGameUI {
 			// Update position tracking
 			updatePositionTracking(isCapture || isPawnMove);
 
-			chessBoard.redraw();
+			redrawActiveView();
 			aiThinking = false;
 			updateUI();
 
@@ -569,7 +599,7 @@ public class ChessGameUI {
 
 	board = new Board(new GameContext(mode, VariationType.NORMAL), false);
 	chessBoard.setBoard(board);
-	chessBoard.redraw();
+	redrawActiveView();
 
 	// Reset position tracking
 	synchronized (positionHistory) {

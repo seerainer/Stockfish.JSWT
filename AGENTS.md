@@ -231,7 +231,7 @@ src/
     utils/
       ResourceManager.java     # ExecutorService lifecycle management
   main/resources/
-    stockfish/                 # stockfish-18-lite-single.wasm, stockfish-18-lite-single.js, bridge JS
+    stockfish/                 # stockfish-19-lite-single.wasm, stockfish-19-lite-single.js, bridge JS
     META-INF/                  # native-image reachability metadata
   test/java/io/github/seerainer/chess/test/
     UCIProtocolTest.java       # Reference style example; use @Nested grouping

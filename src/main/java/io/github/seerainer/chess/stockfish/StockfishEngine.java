@@ -35,8 +35,8 @@ public class StockfishEngine implements AutoCloseable {
 
     // Resource paths for Stockfish files
     private static final String BRIDGE_JS_RESOURCE = "/stockfish/stockfish-graaljs-bridge.js";
-    private static final String STOCKFISH_JS_RESOURCE = "/stockfish/stockfish-18-lite-single.js";
-    private static final String STOCKFISH_WASM_RESOURCE = "/stockfish/stockfish-18-lite-single.wasm";
+    private static final String STOCKFISH_JS_RESOURCE = "/stockfish/stockfish-19-lite-single.js";
+    private static final String STOCKFISH_WASM_RESOURCE = "/stockfish/stockfish-19-lite-single.wasm";
 
     // GraalVM Polyglot context and state
     private Context jsContext;
@@ -127,7 +127,7 @@ public class StockfishEngine implements AutoCloseable {
 	bindings.putMember("__stockfishJsSource", stockfishJs);
 
 	// Evaluate the bridge script (sets up environment + loads
-	// stockfish-18-lite-single.js)
+	// stockfish-19-lite-single.js)
 	final var bridgeSource = Source.newBuilder("js", bridgeJs, "stockfish-graaljs-bridge.js").build();
 	jsContext.eval(bridgeSource);
 

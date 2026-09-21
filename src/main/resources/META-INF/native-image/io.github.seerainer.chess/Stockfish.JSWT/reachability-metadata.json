@@ -67,6 +67,16 @@
       ]
     },
     {
+      "type": "java.util.function.Supplier",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "get",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
       "type": "jdk.internal.jrtfs.JrtFileSystemProvider"
     },
     {
@@ -2496,6 +2506,54 @@
       "type": "org.graalvm.wasm.constants.Instructions",
       "fields": [
         {
+          "name": "AGGREGATE"
+        },
+        {
+          "name": "ANY_CONVERT_EXTERN"
+        },
+        {
+          "name": "ARRAY_COPY"
+        },
+        {
+          "name": "ARRAY_FILL"
+        },
+        {
+          "name": "ARRAY_GET"
+        },
+        {
+          "name": "ARRAY_GET_S"
+        },
+        {
+          "name": "ARRAY_GET_U"
+        },
+        {
+          "name": "ARRAY_INIT_DATA"
+        },
+        {
+          "name": "ARRAY_INIT_ELEM"
+        },
+        {
+          "name": "ARRAY_LEN"
+        },
+        {
+          "name": "ARRAY_NEW"
+        },
+        {
+          "name": "ARRAY_NEW_DATA"
+        },
+        {
+          "name": "ARRAY_NEW_DEFAULT"
+        },
+        {
+          "name": "ARRAY_NEW_ELEM"
+        },
+        {
+          "name": "ARRAY_NEW_FIXED"
+        },
+        {
+          "name": "ARRAY_SET"
+        },
+        {
           "name": "ATOMIC"
         },
         {
@@ -2709,6 +2767,18 @@
           "name": "BR_IF"
         },
         {
+          "name": "BR_ON_CAST"
+        },
+        {
+          "name": "BR_ON_CAST_FAIL"
+        },
+        {
+          "name": "BR_ON_NON_NULL"
+        },
+        {
+          "name": "BR_ON_NULL"
+        },
+        {
           "name": "BR_TABLE"
         },
         {
@@ -2718,7 +2788,19 @@
           "name": "CALL_INDIRECT"
         },
         {
+          "name": "CALL_REF"
+        },
+        {
+          "name": "CATCH"
+        },
+        {
+          "name": "CATCH_ALL"
+        },
+        {
           "name": "DATA_DROP"
+        },
+        {
+          "name": "DELEGATE"
         },
         {
           "name": "DROP"
@@ -2731,6 +2813,9 @@
         },
         {
           "name": "END"
+        },
+        {
+          "name": "EXTERN_CONVERT_ANY"
         },
         {
           "name": "F32_ABS"
@@ -2913,6 +2998,12 @@
           "name": "GLOBAL_SET"
         },
         {
+          "name": "I31_GET_S"
+        },
+        {
+          "name": "I31_GET_U"
+        },
+        {
           "name": "I32_ADD"
         },
         {
@@ -3066,6 +3157,9 @@
           "name": "I64_ADD"
         },
         {
+          "name": "I64_ADD128"
+        },
+        {
           "name": "I64_AND"
         },
         {
@@ -3153,6 +3247,12 @@
           "name": "I64_MUL"
         },
         {
+          "name": "I64_MUL_WIDE_S"
+        },
+        {
+          "name": "I64_MUL_WIDE_U"
+        },
+        {
           "name": "I64_NE"
         },
         {
@@ -3199,6 +3299,9 @@
         },
         {
           "name": "I64_SUB"
+        },
+        {
+          "name": "I64_SUB128"
         },
         {
           "name": "I64_TRUNC_F32_S"
@@ -3264,13 +3367,37 @@
           "name": "NOP"
         },
         {
+          "name": "REF_AS_NON_NULL"
+        },
+        {
+          "name": "REF_CAST_NON_NULL"
+        },
+        {
+          "name": "REF_CAST_NULL"
+        },
+        {
+          "name": "REF_EQ"
+        },
+        {
           "name": "REF_FUNC"
+        },
+        {
+          "name": "REF_I31"
         },
         {
           "name": "REF_IS_NULL"
         },
         {
           "name": "REF_NULL"
+        },
+        {
+          "name": "REF_TEST_NON_NULL"
+        },
+        {
+          "name": "REF_TEST_NULL"
+        },
+        {
+          "name": "RETHROW"
         },
         {
           "name": "RETURN"
@@ -3280,6 +3407,24 @@
         },
         {
           "name": "SELECT_T"
+        },
+        {
+          "name": "STRUCT_GET"
+        },
+        {
+          "name": "STRUCT_GET_S"
+        },
+        {
+          "name": "STRUCT_GET_U"
+        },
+        {
+          "name": "STRUCT_NEW"
+        },
+        {
+          "name": "STRUCT_NEW_DEFAULT"
+        },
+        {
+          "name": "STRUCT_SET"
         },
         {
           "name": "TABLE_COPY"
@@ -3301,6 +3446,18 @@
         },
         {
           "name": "TABLE_SIZE"
+        },
+        {
+          "name": "THROW"
+        },
+        {
+          "name": "THROW_REF"
+        },
+        {
+          "name": "TRY"
+        },
+        {
+          "name": "TRY_TABLE"
         },
         {
           "name": "UNREACHABLE"
@@ -4100,6 +4257,35 @@
       ]
     },
     {
+      "type": "sun.security.provider.DRBG",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.security.SecureRandomParameters"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA2$SHA256",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
       "type": "sun.text.resources.cldr.FormatData"
     }
   ],
@@ -4109,6 +4295,12 @@
     },
     {
       "glob": "META-INF/graalvm/org.graalvm.truffle/version"
+    },
+    {
+      "glob": "META-INF/resources/engine/libtruffleattach/windows/amd64/bin/truffleattach.dll"
+    },
+    {
+      "glob": "META-INF/resources/engine/libtruffleattach/windows/amd64/files"
     },
     {
       "glob": "META-INF/resources/engine/libtruffleattach/windows/amd64/sha256"
@@ -4168,13 +4360,17 @@
       "glob": "org/eclipse/swt/internal/Library.class"
     },
     {
-      "glob": "stockfish/stockfish-18-lite-single.js"
+      "glob": "stockfish/stockfish-19-lite-single.js"
     },
     {
-      "glob": "stockfish/stockfish-18-lite-single.wasm"
+      "glob": "stockfish/stockfish-19-lite-single.wasm"
     },
     {
       "glob": "stockfish/stockfish-graaljs-bridge.js"
+    },
+    {
+      "module": "java.base",
+      "glob": "sun/launcher/resources/launcher_de_AT.properties"
     },
     {
       "module": "jdk.jfr",

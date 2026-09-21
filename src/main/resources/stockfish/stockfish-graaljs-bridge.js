@@ -2,7 +2,7 @@
  * GraalJS Bridge for Stockfish WASM
  *
  * This script sets up a minimal Node.js-like environment in GraalJS
- * so that stockfish-18-lite-single.js can initialize properly. The bridge:
+ * so that stockfish-19-lite-single.js can initialize properly. The bridge:
  * 1. Mocks process, require, module, etc.
  * 2. Captures the Stockfish factory from module.exports
  * 3. Creates the engine with wasmBinary (provided from Java)
@@ -11,19 +11,19 @@
  *
  * Java must set these bindings before evaluating this script:
  *   __javaOutputHandler  - ProxyExecutable for engine output lines
- *   __wasmBinary         - byte[] of the stockfish-18-lite-single.wasm file
- *   __stockfishJsSource  - String content of stockfish-18-lite-single.js
+ *   __wasmBinary         - byte[] of the stockfish-19-lite-single.wasm file
+ *   __stockfishJsSource  - String content of stockfish-19-lite-single.js
  */
 
 // ============================================================
-// Phase 1: Environment setup for Emscripten/stockfish-18-lite-single.js
+// Phase 1: Environment setup for Emscripten/stockfish-19-lite-single.js
 // ============================================================
 
 var global = globalThis;
 
 // Mock Node.js __dirname and __filename globals
 var __dirname = '.';
-var __filename = 'stockfish-18-lite-single.js';
+var __filename = 'stockfish-19-lite-single.js';
 
 // Provide setTimeout/clearTimeout if not available (GraalJS doesn't include them by default)
 if (typeof setTimeout === 'undefined') {
@@ -41,7 +41,7 @@ if (typeof setTimeout === 'undefined') {
 // Mock Node.js process object
 // The toString tag makes Object.prototype.toString.call(process) === "[object process]"
 var process = {
-    argv: ['node', 'stockfish-18-lite-single.js'],
+    argv: ['node', 'stockfish-19-lite-single.js'],
     on: function() { return this; },
     exit: function() {},
     versions: { node: '20.0.0' },
@@ -126,11 +126,11 @@ var require = function(name) {
     }
     return {};
 };
-// Make require.main !== module so stockfish-18-lite-single.js takes the module.exports path
+// Make require.main !== module so stockfish-19-lite-single.js takes the module.exports path
 require.main = {};
 
 // ============================================================
-// Phase 2: Load stockfish-18-lite-single.js (sets module.exports = factory)
+// Phase 2: Load stockfish-19-lite-single.js (sets module.exports = factory)
 // ============================================================
 
 (0, eval)(__stockfishJsSource);
@@ -143,7 +143,7 @@ var _factory = module.exports;
 var _engine = null;
 var _engineReady = false;
 var _pendingCommands = [];
-var _searchQueue = []; // Queue for go/setoption commands (like stockfish-18-lite-single.js's n[])
+var _searchQueue = []; // Queue for go/setoption commands (like stockfish-19-lite-single.js's n[])
 
 /**
  * Send output to the Java handler.
@@ -156,7 +156,7 @@ function _output(line) {
 
 /**
  * Execute a UCI command directly on the engine via ccall.
- * This mirrors the i(e) function in stockfish-18-lite-single.js.
+ * This mirrors the i(e) function in stockfish-19-lite-single.js.
  */
 function _execCommand(cmd) {
     if (!_engine || !_engine.ccall) {
@@ -170,7 +170,7 @@ function _execCommand(cmd) {
 /**
  * Drain the search queue — process queued go/setoption commands
  * when the engine is not currently searching.
- * This mirrors the c() function in stockfish-18-lite-single.js.
+ * This mirrors the c() function in stockfish-19-lite-single.js.
  */
 function _drainQueue() {
     while (_searchQueue.length > 0 && (!_engine._isSearching || !_engine._isSearching())) {
@@ -180,7 +180,7 @@ function _drainQueue() {
 
 /**
  * Process a UCI command with proper queueing for go/setoption.
- * This mirrors the f(e) function (processCommand) in stockfish-18-lite-single.js.
+ * This mirrors the f(e) function (processCommand) in stockfish-19-lite-single.js.
  */
 function _processCommand(cmd) {
     cmd = cmd.trim();
@@ -242,7 +242,7 @@ function _initEngine() {
         _engine = instance;
 
         // Set up the onDoneSearching callback to drain the command queue
-        // This mirrors the l() function in stockfish-18-lite-single.js
+        // This mirrors the l() function in stockfish-19-lite-single.js
         _engine.onDoneSearching = _drainQueue;
 
         _engineReady = true;
