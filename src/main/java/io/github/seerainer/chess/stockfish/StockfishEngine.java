@@ -230,7 +230,14 @@ public class StockfishEngine implements AutoCloseable {
 		// search duration on the engine thread. Submit fire-and-forget so this
 		// method returns immediately and waitForResponse can begin polling the
 		// output queue while the search runs.
-		engineThread.submit(() -> sendCommandInternal(command));
+		engineThread.submit(() -> {
+		    try {
+			sendCommandInternal(command);
+		    } catch (final Exception e) {
+			System.err.println("Error in fire-and-forget go command: " + e.getMessage());
+			e.printStackTrace();
+		    }
+		});
 	    } else {
 		// Non-search commands complete in milliseconds; wait for them so that
 		// ordering guarantees hold (e.g. position is set before go is sent).
