@@ -21,6 +21,13 @@
 
 var global = globalThis;
 
+// Mock performance.now() — used by Emscripten for timing
+if (typeof performance === 'undefined') {
+    global.performance = {
+        now: function() { return Date.now(); }
+    };
+}
+
 // Mock Node.js __dirname and __filename globals
 var __dirname = '.';
 var __filename = 'stockfish-19-lite-single.js';
@@ -66,7 +73,13 @@ var process = {
         return [sec, nsec];
     }
 };
-Object.defineProperty(process, Symbol.toStringTag, { value: 'process' });
+// NOTE: Do NOT set Symbol.toStringTag = 'process' here.
+// The stockfish-19-lite-single.js outer IIFE checks
+//   Object.prototype.toString.call(global.process) === "[object process]"
+// to decide whether to enter the Node.js wrapper branch, which overwrites
+// module.exports with a non-function wrapper. By not setting the tag, that
+// check fails and module.exports retains the direct Emscripten async
+// constructor (t) set by the UMD block inside function e().
 global.process = process;
 
 // Mock module system
@@ -110,8 +123,8 @@ var require = function(name) {
             }
         };
     }
-    if (name === 'worker_threads') {
-        return { isMainThread: true };
+    if (name === 'worker_threads' || name === 'node:worker_threads') {
+        return { isMainThread: true, workerData: null };
     }
     if (name === 'readline') {
         return {
@@ -143,7 +156,6 @@ var _factory = module.exports;
 var _engine = null;
 var _engineReady = false;
 var _pendingCommands = [];
-var _searchQueue = []; // Queue for go/setoption commands (like stockfish-19-lite-single.js's n[])
 
 /**
  * Send output to the Java handler.
@@ -156,40 +168,24 @@ function _output(line) {
 
 /**
  * Execute a UCI command directly on the engine via ccall.
- * This mirrors the i(e) function in stockfish-19-lite-single.js.
+ * 'go' commands use async:true (Asyncify) so the WASM search loop can
+ * pump output callbacks while running; all other commands use async:false.
  */
 function _execCommand(cmd) {
     if (!_engine || !_engine.ccall) {
         return;
     }
+    var isGoCmd = /^go\b/.test(cmd);
     _engine.ccall('command', null, ['string'], [cmd], {
-        async: false
+        async: isGoCmd
     });
 }
 
 /**
- * Drain the search queue — process queued go/setoption commands
- * when the engine is not currently searching.
- * This mirrors the c() function in stockfish-19-lite-single.js.
- */
-function _drainQueue() {
-    while (_searchQueue.length > 0 && (!_engine._isSearching || !_engine._isSearching())) {
-        _execCommand(_searchQueue.shift());
-    }
-}
-
-/**
- * Process a UCI command with proper queueing for go/setoption.
- * This mirrors the f(e) function (processCommand) in stockfish-19-lite-single.js.
+ * Process a UCI command by sending it directly to the engine.
  */
 function _processCommand(cmd) {
-    cmd = cmd.trim();
-    if (cmd.substring(0, 2) === 'go' || cmd.substring(0, 9) === 'setoption') {
-        _searchQueue.push(cmd);
-    } else {
-        _execCommand(cmd);
-    }
-    _drainQueue();
+    _execCommand(cmd.trim());
 }
 
 /**
@@ -234,16 +230,12 @@ function _initEngine() {
         config.wasmBinary = wasmBytes.buffer;
     }
 
-    // Call the factory to get the module creator, then create the engine
-    var moduleCreator = _factory();
-    var enginePromise = moduleCreator(config);
+    // _factory is the Emscripten async constructor (module.exports = t from the UMD block).
+    // Call it directly with config to get the Promise<EmscriptenModule>.
+    var enginePromise = _factory(config);
 
     return enginePromise.then(function(instance) {
         _engine = instance;
-
-        // Set up the onDoneSearching callback to drain the command queue
-        // This mirrors the l() function in stockfish-19-lite-single.js
-        _engine.onDoneSearching = _drainQueue;
 
         _engineReady = true;
 
