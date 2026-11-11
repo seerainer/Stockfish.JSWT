@@ -68,7 +68,7 @@ dependencies {
 
     // GraalVM Polyglot API for Stockfish WASM integration
     implementation 'org.graalvm.polyglot:polyglot:25.4.4.1.1'
-    implementation 'org.graalvm.polyglot:js:25.4.4.1.1'
+    implementation 'org.graalvm.polyglot:js:25.5.5.0.3'
     implementation 'org.graalvm.polyglot:wasm:25.4.4.1.1'
 
     // Testing dependencies
